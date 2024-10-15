@@ -9,7 +9,22 @@
     {"node":6,"name":"Administración de la Infraestructura Aeroportuaria en Santa Lucía, Edo. Méx"},
     {"node":7,"name":"Prestación de Servicios Públicos de Transporte Masivo de Personas y Carga Tren Maya"},
     {"node":8,"name":"Dirigir la Aerolínea del Estado Mexicano"},
-    {"node":9,"name":"Dirigir la infraestructura aeroportuaria, ferroviaria y de servicios auxiliares"}
+    {"node":9,"name":"Dirigir la infraestructura aeroportuaria, ferroviaria y de servicios auxiliares"},
+    {"node":10,"name":"Investigación y desarrollo tecnológico, producción y mantenimiento de armamento, municiones, explosivos, vehículos y equipos militares y sus accesorios"},
+    {"node":11,"name":"Defensa de la Integridad, la Independencia, la Soberanía del Territorio Nacional"},
+    {"node":12,"name":"Operación y desarrollo de la Fuerza Aérea Mexicana"},
+    {"node":13,"name":"Programa de la Secretaría de la Defensa Nacional en Apoyo a la Seguridad Pública"},
+    {"node":14,"name":"Programa de sanidad militar"},
+    {"node":15,"name":"Derechos humanos"},
+    {"node":16,"name":"Investigación, desarrollo y producción de vestuario y equipo militar y mantenimiento de infraestructura"},
+    {"node":17,"name":"Mantenimiento y conservación de la infraestructura militar y maquinaria pesada y administración inmobiliaria"},
+    {"node":18,"name":"Programa de justicia militar"},
+    {"node":19,"name":"Sistema educativo militar"},
+    {"node":20,"name":"Investigación y desarrollo militar en coordinación con universidades públicas, instituciones públicas de educación superior y/o demás centros públicos de investigación superior"},
+    {"node":21,"name":"Salud y producción animal"},
+    {"node":22,"name":"Fortalecimiento de las capacidades de auxilio a la población civil mediante el Plan DN-III-E"},
+    {"node":23,"name":"Operación y desarrollo de los cuerpos de seguridad de las Fuerzas Armadas"},
+    {"node":24,"name":"Programa de igualdad entre mujeres y hombres SDN"}
     ],
     "links":[
     {"source":0,"target":1,"value":22729690145},
@@ -20,6 +35,21 @@
     {"source":1,"target":6,"value":1500000001},
     {"source":1,"target":7,"value":5937262358},
     {"source":1,"target":8,"value":119673172},
-    {"source":1,"target":9,"value":15172754614}
+    {"source":1,"target":9,"value":15172754614},
+    {"source":2,"target":10,"value":1858445294},
+    {"source":2,"target":11,"value":44906637322},
+    {"source":2,"target":12,"value":9768682071},
+    {"source":2,"target":13,"value":4844316948},
+    {"source":2,"target":14,"value":8007866114},
+    {"source":2,"target":15,"value":77075545},
+    {"source":2,"target":16,"value":1106795089},
+    {"source":2,"target":17,"value":3866430843},
+    {"source":2,"target":18,"value":1164889712},
+    {"source":2,"target":19,"value":2666290698},
+    {"source":2,"target":20,"value":135371817},
+    {"source":2,"target":21,"value":113413524},
+    {"source":2,"target":22,"value":66897706},
+    {"source":2,"target":23,"value":21141512515},
+    {"source":2,"target":24,"value":147726176}
     ]
 }
