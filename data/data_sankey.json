@@ -4,7 +4,7 @@
     {"node":1,"name":"Prestación de Servicios Públicos"},
     {"node":2,"name":"Funciones de las Fuerzas Armadas"},
     {"node":3,"name":"Específicos"},
-    {"node":4,"name":"Proyectos de Inversión"},
+    {"node":4,"name":"Proyectos de Inversión: Proyectos de Transporte Masivo de Pasajeros"},
     {"node":5,"name":"Apoyo al proceso presupuestario y para mejorar la eficiencia institucional"},
     {"node":6,"name":"Administración de la Infraestructura Aeroportuaria en Santa Lucía, Edo. Méx"},
     {"node":7,"name":"Prestación de Servicios Públicos de Transporte Masivo de Personas y Carga Tren Maya"},
@@ -27,7 +27,9 @@
     {"node":24,"name":"Programa de igualdad entre mujeres y hombres SDN"},
     {"node":25,"name":"Programa de Becas para los hijos del Personal de las Fuerza Armadas en activo"},
     {"node":26,"name":"Fideicomiso de apoyo a deudos de militares fallecidos o a militares que hayan adquirido una incapacidad en 1/a. categoría en actos del servicio considerados de alto riesgo"},
-    {"node":27,"name":"Provisiones para la construcción y fortalecimiento de infraestructura"}
+    {"node":27,"name":"Provisiones para la construcción y fortalecimiento de infraestructura"},
+    {"node":28,"name":"Servicios Personales"},
+    {"node":29,"name":"Gasto de Operación"}
     ],
     "links":[
     {"source":0,"target":1,"value":22729690145},
@@ -56,6 +58,8 @@
     {"source":2,"target":24,"value":147726176},
     {"source":3,"target":25,"value":1042070970},
     {"source":3,"target":26,"value":20881254},
-    {"source":3,"target":27,"value":4409087059}
+    {"source":3,"target":27,"value":4409087059},
+    {"source":6,"target":28,"value":464551565},
+    {"source":6,"target":29,"value": 1035448436}
     ]
 }
