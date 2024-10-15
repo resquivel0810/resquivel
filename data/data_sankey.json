@@ -24,7 +24,10 @@
     {"node":21,"name":"Salud y producción animal"},
     {"node":22,"name":"Fortalecimiento de las capacidades de auxilio a la población civil mediante el Plan DN-III-E"},
     {"node":23,"name":"Operación y desarrollo de los cuerpos de seguridad de las Fuerzas Armadas"},
-    {"node":24,"name":"Programa de igualdad entre mujeres y hombres SDN"}
+    {"node":24,"name":"Programa de igualdad entre mujeres y hombres SDN"},
+    {"node":25,"name":"Programa de Becas para los hijos del Personal de las Fuerza Armadas en activo"},
+    {"node":26,"name":"Fideicomiso de apoyo a deudos de militares fallecidos o a militares que hayan adquirido una incapacidad en 1/a. categoría en actos del servicio considerados de alto riesgo"},
+    {"node":27,"name":"Provisiones para la construcción y fortalecimiento de infraestructura"}
     ],
     "links":[
     {"source":0,"target":1,"value":22729690145},
@@ -50,6 +53,9 @@
     {"source":2,"target":21,"value":113413524},
     {"source":2,"target":22,"value":66897706},
     {"source":2,"target":23,"value":21141512515},
-    {"source":2,"target":24,"value":147726176}
+    {"source":2,"target":24,"value":147726176},
+    {"source":3,"target":25,"value":1042070970},
+    {"source":3,"target":26,"value":20881254},
+    {"source":3,"target":27,"value":4409087059}
     ]
 }
