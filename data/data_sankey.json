@@ -1,11 +1,11 @@
 {
     "nodes":[
-    {"node":0,"name":"node0"},
-    {"node":1,"name":"node1"},
-    {"node":2,"name":"node2"},
-    {"node":3,"name":"node3"},
-    {"node":4,"name":"node4"},
-    {"node":5,"name":"node5"}
+    {"node":0,"name":"Total Gasto Programable"},
+    {"node":1,"name":"Prestación de Servicios Públicos"},
+    {"node":2,"name":"Funciones de las Fuerzas Armadas"},
+    {"node":3,"name":"Específicos"},
+    {"node":4,"name":"Proyectos de Inversión"},
+    {"node":5,"name":"Apoyo al proceso presupuestario y para mejorar la eficiencia institucional"}
     ],
     "links":[
     {"source":0,"target":1,"value":22729690145},
