@@ -9,6 +9,7 @@
 body {
     background: hsla(var( --lightAccent-hsl)) ;
     color: hsla(var( --black-hsl));
+    margin: 0;
 }
 
 div {
@@ -76,6 +77,42 @@ h1{
     font-family: "Cormorant Garamond", serif;
 
     /* padding-left: 100px; */
+}
+
+.posts {
+    max-width: 1140px;
+}
+
+.post {
+    display: flex;
+    margin: 15px;
+}
+
+.post img {
+    width: 30%;
+}
+
+.post-body {
+    margin: 15px;
+}
+
+.footer {
+    height: 100px;
+    width: 100vw;
+    background-color: #383838;
+    margin-top: 125px;
+}
+
+.footer .content {
+    max-width: 1400px;
+    margin: auto;
+    height: 100%;
+}
+
+.copyright {
+    color: #ffc700;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.5em;
 }
 
 
