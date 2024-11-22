@@ -2,36 +2,36 @@ id	name	population
 -1	Northern Cyprus	0
 -2	Kosovo	0
 -3	Somaliland	0
-4	Afghanistan	40121552
-8	Albania	3107100
-10	Antarctica	0
-12	Algeria	47022473
-16	American Samoa	43895
-20	Andorra	85370
-24	Angola	37202061
-28	Antigua and Barbuda	102634
-31	Azerbaijan	10650239
-32	Argentina	46994384
-36	Australia	26768598
-40	Austria	8967982
-44	Bahamas	410862
-48	Bahrain	1566888
-50	Bangladesh	168697184
-51	Armenia	2976765
-52	Barbados	304139
-56	Belgium	11977634
-60	Bermuda	72800
-64	Bhutan	884546
-68	Bolivia, Plurinational State of	12311974
-70	Bosnia and Herzegovina	3798671
-72	Botswana	2450668
-74	Bouvet Island	0
-76	Brazil	220051512
-84	Belize	415789
-86	British Indian Ocean Territory	0
-90	Solomon Islands	726799
-92	Virgin Islands, British	104377
-96	Brunei Darussalam	491900
+004	Afghanistan	40121552
+008	Albania	3107100
+010	Antarctica	0
+012	Algeria	47022473
+016	American Samoa	43895
+020	Andorra	85370
+024	Angola	37202061
+028	Antigua and Barbuda	102634
+031	Azerbaijan	10650239
+032	Argentina	46994384
+036	Australia	26768598
+040	Austria	8967982
+044	Bahamas	410862
+048	Bahrain	1566888
+050	Bangladesh	168697184
+051	Armenia	2976765
+052	Barbados	304139
+056	Belgium	11977634
+060	Bermuda	72800
+064	Bhutan	884546
+068	Bolivia, Plurinational State of	12311974
+070	Bosnia and Herzegovina	3798671
+072	Botswana	2450668
+074	Bouvet Island	0
+076	Brazil	220051512
+084	Belize	415789
+086	British Indian Ocean Territory	0
+090	Solomon Islands	726799
+092	Virgin Islands, British	104377
+096	Brunei Darussalam	491900
 100	Bulgaria	6782659
 104	Myanmar	57527139
 108	Burundi	13590102
