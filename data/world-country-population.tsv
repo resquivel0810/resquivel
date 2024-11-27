@@ -1,7 +1,7 @@
 id	name	population
--1	Northern Cyprus	0
+-1	Chipre del Norte	0
 -2	Kosovo	0
--3	Somaliland	0
+-3	Somalilandia	0
 004	Afganistán	40121552
 008	Albania	3107100
 010	Antártica	0
@@ -19,235 +19,235 @@ id	name	population
 050	Bangladés	168697184
 051	Armenia	2976765
 052	Barbados	304139
-056	Belgium	11977634
-060	Bermuda	72800
-064	Bhutan	884546
-068	Bolivia, Plurinational State of	12311974
-070	Bosnia and Herzegovina	3798671
-072	Botswana	2450668
-074	Bouvet Island	0
-076	Brazil	220051512
-084	Belize	415789
-086	British Indian Ocean Territory	0
-090	Solomon Islands	726799
-092	Virgin Islands, British	104377
-096	Brunei Darussalam	491900
+056	Bélgica	11977634
+060	Bermudas	72800
+064	Bután	884546
+068	Bolivia	12311974
+070	Bosnia y Herzegovina	3798671
+072	Botsuana	2450668
+074	Isla Bouvet	0
+076	Brasil	220051512
+084	Belice	415789
+086	Territorio Británico del Océano Índico	0
+090	Islas Salomón	726799
+092	Islas Vírgenes Británicas	104377
+096	Brunéi	491900
 100	Bulgaria	6782659
-104	Myanmar	57527139
+104	Birmania	57527139
 108	Burundi	13590102
-112	Belarus	9501451
-116	Cambodia	17063669
-120	Cameroon	30966105
-124	Canada	38794813
-132	Cape Verde	611014
-136	Cayman Islands	66653
-140	Central African Republic	5650957
+112	Bielorrusia	9501451
+116	Camboya	17063669
+120	Camerún	30966105
+124	Canadá	38794813
+132	Cabo Verde	611014
+136	Islas Caimán	66653
+140	República Centroafricana	5650957
 144	Sri Lanka	21982608
 148	Chad	19093595
 152	Chile	18664652
 156	China	1416043270
-158	Taiwan, Province of China	23595274
-162	Christmas Island	1692
-166	Cocos (Keeling) Islands	593
+158	Taiwán	23595274
+162	Isla de Navidad	1692
+166	Islas Cocos	593
 170	Colombia	49588357
-174	Comoros	900141
+174	Comoras	900141
 175	Mayotte	0
-178	Congo	6097665
-180	Congo, the Democratic Republic of the	115403027
-184	Cook Islands	7761
+178	República del Congo	6097665
+180	República Democrática del Congo	115403027
+184	Islas Cook	7761
 188	Costa Rica	5265575
-191	Croatia	4150116
+191	Croacia	4150116
 192	Cuba	10966038
-196	Cyprus	1320525
-203	Czech Republic	10837890
-204	Benin	14697052
-208	Denmark	5973136
+196	Chipre	1320525
+203	República Checa	10837890
+204	Benín	14697052
+208	Dinamarca	5973136
 212	Dominica	74661
-214	Dominican Republic	10815857
+214	República Dominicana	10815857
 218	Ecuador	18309984
 222	El Salvador	6628702
-226	Equatorial Guinea	1795834
-231	Ethiopia	118550298
+226	Guinea Ecuatorial	1795834
+231	Etiopía	118550298
 232	Eritrea	6343956
 233	Estonia	1193791
-234	Faroe Islands	52933
-238	Falkland Islands (Malvinas)	3662
-239	South Georgia and the South Sandwich Islands	0
-242	Fiji	951611
-246	Finland	5626414
-248	Åland Islands	0
-250	France	68374591
-254	French Guiana	0
-258	French Polynesia	0
-260	French Southern Territories	0
-262	Djibouti	994974
-266	Gabon	2455105
+234	Islas Feroe	52933
+238	Islas Malvinas	3662
+239	Islas Georgias del Sur y Sandwich del Sur	0
+242	Fiyi	951611
+246	Finlandia	5626414
+248	Åland	0
+250	Francia	68374591
+254	Guayana Francesa	0
+258	Polinesia Francesa	0
+260	Territorios Australes Franceses	0
+262	Yibuti	994974
+266	Gabón	2455105
 268	Georgia	4900961
 270	Gambia	2523327
-275	Palestinian Territory, Occupied	0
-276	Germany	84119100
+275	Palestina	0
+276	Alemania	84119100
 288	Ghana	34589092
 292	Gibraltar	29683
 296	Kiribati	116545
-300	Greece	10461091
-304	Greenland	57751
-308	Grenada	114621
-312	Guadeloupe	0
+300	Grecia	10461091
+304	Groenlandia	57751
+308	Granada	114621
+312	Guadalupe	0
 316	Guam	169532
 320	Guatemala	18255216
 324	Guinea	13986179
 328	Guyana	794099
-332	Haiti	11753943
-334	Heard Island and McDonald Islands	0
-336	Holy See (Vatican City State)	1000
+332	Haití	11753943
+334	Islas Heard y McDonald	0
+336	Ciudad del Vaticano	1000
 340	Honduras	9529188
 344	Hong Kong	7297821
-348	Hungary	9855745
-352	Iceland	364036
+348	Hungría	9855745
+352	Islandia	364036
 356	India	1409128296
 360	Indonesia	281562465
-364	Iran, Islamic Republic of	88386937
-368	Iraq	42083436
-372	Ireland	5233461
+364	Irán	88386937
+368	Irak	42083436
+372	Irlanda	5233461
 376	Israel	9402617
-380	Italy	60964931
-384	Côte d'Ivoire	29981758
+380	Italia	60964931
+384	Costa de Marfil	29981758
 388	Jamaica	2823713
-392	Japan	123201945
-398	Kazakhstan	20260006
-400	Jordan	11174024
-404	Kenya	58246378
-408	Korea, Democratic People's Republic of	26298666
-410	Korea, Republic of	52081799
+392	Japón	123201945
+398	Kazajistán	20260006
+400	Jordania	11174024
+404	Kenia	58246378
+408	Corea del Norte	26298666
+410	Corea del Sur	52081799
 414	Kuwait	3138355
-417	Kyrgyzstan	6172101
-418	Lao People's Democratic Republic	7953556
-422	Lebanon	5364482
-426	Lesotho	2227548
-428	Latvia	1801246
+417	Kirguistán	6172101
+418	Laos	7953556
+422	Líbano	5364482
+426	Lesoto	2227548
+428	Letonia	1801246
 430	Liberia	5437249
-434	Libya	7361263
+434	Libia	7361263
 438	Liechtenstein	40272
-440	Lithuania	2628186
-442	Luxembourg	671254
+440	Lituania	2628186
+442	Luxemburgo	671254
 446	Macao	644426
 450	Madagascar	29452714
-454	Malawi	21763309
-458	Malaysia	34564810
-462	Maldives	388858
-466	Mali	21990607
+454	Malaui	21763309
+458	Malasia	34564810
+462	Maldivas	388858
+466	Malí	21990607
 470	Malta	469730
-474	Martinique	0
+474	Martinica	0
 478	Mauritania	4328040
-480	Mauritius	1310504
-484	Mexico	130739927
-492	Monaco	31813
+480	Mauricio	1310504
+484	México	130739927
+492	Mónaco	31813
 496	Mongolia	3281676
-498	Moldova, Republic of	3599528
+498	Moldavia	3599528
 499	Montenegro	599849
 500	Montserrat	5468
-504	Morocco	37387585
+504	Marruecos	37387585
 508	Mozambique	33350954
-512	Oman	3901992
+512	Omán	3901992
 516	Namibia	2803660
 520	Nauru	9892
 524	Nepal	31122387
-528	Netherlands	17772378
-531	Curaçao	153289
+528	Países Bajos	17772378
+531	Curazao	153289
 533	Aruba	125063
-534	Sint Maarten (Dutch part)	32996
-535	Bonaire, Sint Eustatius and Saba	0
-540	New Caledonia	304167
+534	Sint Maarten	32996
+535	Caribe Neerlandés	0
+540	Nueva Caledonia	304167
 548	Vanuatu	318007
-554	New Zealand	5161211
+554	Nueva Zelanda	5161211
 558	Nicaragua	6676948
-562	Niger	26342784
+562	Níger	26342784
 566	Nigeria	236747130
 570	Niue	2000
-574	Norfolk Island	1748
-578	Norway	5509733
-580	Northern Mariana Islands	51118
-581	United States Minor Outlying Islands	0
-583	Micronesia, Federated States of	99603
-584	Marshall Islands	82011
-585	Palau	21864
-586	Pakistan	252363571
-591	Panama	4470241
-598	Papua New Guinea	10046233
+574	Isla Norfolk	1748
+578	Noruega	5509733
+580	Islas Marianas del Norte	51118
+581	Las islas Ultramarinas Menores de los Estados Unidos​​	0
+583	Micronesia	99603
+584	Islas Marshall	82011
+585	Palaos	21864
+586	Pakistán	252363571
+591	Panamá	4470241
+598	Papúa Nueva Guinea	10046233
 600	Paraguay	7522549
-604	Peru	32600249
-608	Philippines	118277063
-612	Pitcairn	50
-616	Poland	38746310
+604	Perú	32600249
+608	Filipinas	118277063
+612	Islas Pitcairn	50
+616	Polonia	38746310
 620	Portugal	10207177
-624	Guinea-Bissau	2132325
-626	Timor-Leste	1506909
+624	Guinea-Bisáu	2132325
+626	Timor Oriental	1506909
 630	Puerto Rico	3019450
-634	Qatar	2552088
-638	Réunion	0
-642	Romania	18148155
-643	Russian Federation	140820810
-646	Rwanda	13623302
-652	Saint Barthélemy	7086
-654	Saint Helena, Ascension and Tristan da Cunha	7943
-659	Saint Kitts and Nevis	55133
-660	Anguilla	19416
-662	Saint Lucia	168038
-663	Saint Martin (French part)	32996
-666	Saint Pierre and Miquelon	5132
-670	Saint Vincent and the Grenadines	100647
+634	Catar	2552088
+638	Reunión	0
+642	Rumanía	18148155
+643	Rusia	140820810
+646	Ruanda	13623302
+652	San Bartolomé	7086
+654	Santa Elena	7943
+659	San Cristóbal y Nieves	55133
+660	Anguila	19416
+662	Santa Lucía	168038
+663	San Martín	32996
+666	San Pedro y Miquelón	5132
+670	San Vicente y las Granadinas	100647
 674	San Marino	35095
-678	Sao Tome and Principe	223561
-682	Saudi Arabia	36544431
+678	Santo Tomé y Príncipe	223561
+682	Arabia Saudita	36544431
 686	Senegal	18847519
 688	Serbia	6652212
 690	Seychelles	98187
-694	Sierra Leone	9121049
-702	Singapore	6028459
-703	Slovakia	5563649
-704	Viet Nam	105758975
-705	Slovenia	2097893
+694	Sierra Leona	9121049
+702	Singapur	6028459
+703	Eslovaquia	5563649
+704	Vietnam	105758975
+705	Eslovenia	2097893
 706	Somalia	13017273
-710	South Africa	60442647
-716	Zimbabwe	17150352
-724	Spain	47280433
-728	South Sudan	12703714
-729	Sudan	50467278
-732	Western Sahara	0
-740	Suriname	646758
-744	Svalbard and Jan Mayen	2926
-748	Swaziland	0
-752	Sweden	10589835
-756	Switzerland	8860574
-760	Syrian Arab Republic	23865423
-762	Tajikistan	10394063
-764	Thailand	69920998
+710	Sudáfrica	60442647
+716	Zimbabue	17150352
+724	España	47280433
+728	Sudán del Sur	12703714
+729	Sudán	50467278
+732	Sáhara Occidental	0
+740	Surinam	646758
+744	Svalbard y Jan Mayen	2926
+748	Suazilandia	0
+752	Suecia	10589835
+756	Suiza	8860574
+760	Siria	23865423
+762	Tayikistán	10394063
+764	Tailandia	69920998
 768	Togo	8917994
 772	Tokelau	1647
 776	Tonga	104889
-780	Trinidad and Tobago	1408966
-784	United Arab Emirates	10032213
-788	Tunisia	12048847
-792	Turkey	84119531
-795	Turkmenistan	5744151
-796	Turks and Caicos Islands	60439
+780	Trinidad y Tobago	1408966
+784	Emiratos Árabes Unidos	10032213
+788	Túnez	12048847
+792	Turquía	84119531
+795	Turkmenistán	5744151
+796	Islas Turcas y Caicos	60439
 798	Tuvalu	11733
 800	Uganda	49283041
-804	Ukraine	35661826
-807	Macedonia, the former Yugoslav Republic of	2135622
-818	Egypt	111247248
-826	United Kingdom	68459055
+804	Ucrania	35661826
+807	Macedonia del Norte	2135622
+818	Egipto	111247248
+826	Reino Unido	68459055
 831	Guernsey	67787
 832	Jersey	103387
-833	Isle of Man	92269
-834	Tanzania, United Republic of	67462121
-840	United States	341963408
-850	Virgin Islands, U.S.	104377
+833	Isla de Man	92269
+834	Tanzania	67462121
+840	Estados Unidos	341963408
+850	Islas Vírgenes de los Estados Unidos	104377
 854	Burkina Faso	23042199
 858	Uruguay	3425330
-860	Uzbekistan	36520593
-862	Venezuela, Bolivarian Republic of	31250306
-876	Wallis and Futuna	15964
+860	Uzbekistán	36520593
+862	Venezuela	31250306
+876	Wallis y Futuna	15964
 882	Samoa	208853
 887	Yemen	32140443
 894	Zambia	20799116
