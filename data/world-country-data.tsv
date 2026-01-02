@@ -1,253 +1,253 @@
-id	name	name_in_spanish	population	exports
--1	Northern Cyprus	Chipre del Norte	0	0
--2	Kosovo	Kosovo	0	0
--3	Somaliland	Somalilandia	0	0
-004	Afghanistan	Afganistán	40121552	1476000000
-008	Albania	Albania	3107100	9178000000
-010	Antarctica	Antártica	0	0
-012	Algeria	Argelia	47022473	58816000000
-016	American Samoa	Samoa Americana	43895	409000000
-020	Andorra	Andorra	85370	2736000000
-024	Angola	Angola	37202061	36961000000
-028	Antigua and Barbuda	Antigua y Barbuda	102634	1217000000
-031	Azerbaijan	Azerbaiyán	10650239	35487000000
-032	Argentina	Argentina	46994384	83359000000
-036	Australia	Australia	26768598	447508000000
-040	Austria	Austria	8967982	306466000000
-044	Bahamas	Bahamas	410862	4744000000
-048	Bahrain	Baréin	1566888	40344000000
-050	Bangladesh	Bangladés	168697184	58885000000
-051	Armenia	Armenia	2976765	14130000000
-052	Barbados	Barbados	304139	2228000000
-056	Belgium	Bélgica	11977634	535174000000
-060	Bermuda	Bermudas	72800	1136000000
-064	Bhutan	Bután	884546	815050000
-068	Bolivia, Plurinational State of	Bolivia	12311974	11975000000
-070	Bosnia and Herzegovina	Bosnia y Herzegovina	3798671	11942000000
-072	Botswana	Botsuana	2450668	8900000000
-074	Bouvet Island	Isla Bouvet	0	0
-076	Brazil	Brasil	220051512	389626000000
-084	Belize	Belice	415789	1462000000
-086	British Indian Ocean Territory	Territorio Británico del Océano Índico	0	0
-090	Solomon Islands	Islas Salomón	726799	546025000
-092	Virgin Islands, British	Islas Vírgenes Británicas	104377	23000000
-096	Brunei Darussalam	Brunéi	491900	14411000000
-100	Bulgaria	Bulgaria	6782659	62118000000
-104	Myanmar	Birmania	57527139	20400000000
-108	Burundi	Burundi	13590102	285105000
-112	Belarus	Bielorrusia	9501451	47870000000
-116	Cambodia	Camboya	17063669	27753000000
-120	Cameroon	Camerún	30966105	8641000000
-124	Canada	Canadá	38794813	717677000000
-132	Cape Verde	Cabo Verde	611014	951224000
-136	Cayman Islands	Islas Caimán	66653	4054000000
-140	Central African Republic	República Centroafricana	5650957	293074000
-144	Sri Lanka	Sri Lanka	21982608	17327000000
-148	Chad	Chad	19093595	6503000000
-152	Chile	Chile	18664652	104349000000
-156	China	China	1416043270	3511000000000
-158	Taiwan, Province of China	Taiwán	23595274	388490000000
-162	Christmas Island	Isla de Navidad	1692	0
-166	Cocos (Keeling) Islands	Islas Cocos	593	0
-170	Colombia	Colombia	49588357	67762000000
-174	Comoros	Comoras	900141	165347000
-175	Mayotte	Mayotte	0	0
-178	Congo	República del Congo	6097665	7752000000
-180	Congo, the Democratic Republic of the	República Democrática del Congo	115403027	22354000000
-184	Cook Islands	Islas Cook	7761	31400000
-188	Costa Rica	Costa Rica	5265575	33699000000
-191	Croatia	Croacia	4150116	44969000000
-192	Cuba	Cuba	10966038	8769000000
-196	Cyprus	Chipre	1320525	28808000000
-203	Czech Republic	República Checa	10837890	236688000000
-204	Benin	Benín	14697052	4154000000
-208	Denmark	Dinamarca	5973136	278917000000
-212	Dominica	Dominica	74661	185062000
-214	Dominican Republic	República Dominicana	10815857	25843000000
-218	Ecuador	Ecuador	18309984	34640000000
-222	El Salvador	El Salvador	6628702	10629000000
-226	Equatorial Guinea	Guinea Ecuatorial	1795834	6231000000
-231	Ethiopia	Etiopía	118550298	10865000000
-232	Eritrea	Eritrea	6343956	624300000
-233	Estonia	Estonia	1193791	31939000000
-234	Faroe Islands	Islas Feroe	52933	2219000000
-238	Falkland Islands (Malvinas)	Islas Malvinas	3662	257300000
-239	South Georgia and the South Sandwich Islands	Islas Georgias del Sur y Sandwich del Sur	0	0
-242	Fiji	Fiyi	951611	2376000000
-246	Finland	Finlandia	5626414	122953000000
-248	Åland Islands	Åland	0	0
-250	France	Francia	68374591	1052000000000
-254	French Guiana	Guayana Francesa	0	0
-258	French Polynesia	Polinesia Francesa	0	162000000
-260	French Southern Territories	Territorios Australes Franceses	0	0
-262	Djibouti	Yibuti	994974	5674000000
-266	Gabon	Gabón	2455105	12935000000
-268	Georgia	Georgia	4900961	15161000000
-270	Gambia	Gambia	2523327	267377000
-275	Palestinian Territory, Occupied	Palestina	0	0
-276	Germany	Alemania	84119100	2104000000000
-288	Ghana	Ghana	34589092	25744000000
-292	Gibraltar	Gibraltar	29683	202300000
-296	Kiribati	Kiribati	116545	19677000
-300	Greece	Grecia	10461091	106650000000
-304	Greenland	Groenlandia	57751	1147000000
-308	Grenada	Granada	114621	899153000
-312	Guadeloupe	Guadalupe	0	0
-316	Guam	Guam	169532	186000000
-320	Guatemala	Guatemala	18255216	17308000000
-324	Guinea	Guinea	13986179	8898000000
-328	Guyana	Guyana	794099	11536000000
-332	Haiti	Haití	11753943	1355000000
-334	Heard Island and McDonald Islands	Islas Heard y McDonald	0	0
-336	Holy See (Vatican City State)	Ciudad del Vaticano	1000	0
-340	Honduras	Honduras	9529188	9701000000
-344	Hong Kong	Hong Kong	7297821	673305000000
-348	Hungary	Hungría	9855745	172484000000
-352	Iceland	Islandia	364036	13490000000
-356	India	India	1409128296	773224000000
-360	Indonesia	Indonesia	281562465	292790000000
-364	Iran, Islamic Republic of	Irán	88386937	110882000000
-368	Iraq	Irak	42083436	127079000000
-372	Ireland	Irlanda	5233461	731814000000
-376	Israel	Israel	9402617	156165000000
-380	Italy	Italia	60964931	793589000000
-384	Côte d'Ivoire	Costa de Marfil	29981758	17211000000
-388	Jamaica	Jamaica	2823713	6424000000
-392	Japan	Japón	123201945	920737000000
-398	Kazakhstan	Kazajistán	20260006	90167000000
-400	Jordan	Jordania	11174024	20335000000
-404	Kenya	Kenia	58246378	13859000000
-408	Korea, Democratic People's Republic of	Corea del Norte	26298666	222000000
-410	Korea, Republic of	Corea del Sur	52081799	769534000000
-414	Kuwait	Kuwait	3138355	95476000000
-417	Kyrgyzstan	Kirguistán	6172101	3628000000
-418	Lao People's Democratic Republic	Laos	7953556	8604000000
-422	Lebanon	Líbano	5364482	11770000000
-426	Lesotho	Lesoto	2227548	886278000
-428	Latvia	Letonia	1801246	27947000000
-430	Liberia	Liberia	5437249	1220000000
-434	Libya	Libia	7361263	32380000000
-438	Liechtenstein	Liechtenstein	40272	3217000000
-440	Lithuania	Lituania	2628186	61101000000
-442	Luxembourg	Luxemburgo	671254	176133000000
-446	Macao	Macao	644426	20985000000
-450	Madagascar	Madagascar	29452714	4689000000
-454	Malawi	Malaui	21763309	1487000000
-458	Malaysia	Malasia	34564810	312857000000
-462	Maldives	Maldivas	388858	5096000000
-466	Mali	Malí	21990607	5855000000
-470	Malta	Malta	469730	25417000000
-474	Martinique	Martinica	0	0
-478	Mauritania	Mauritania	4328040	4132000000
-480	Mauritius	Mauricio	1310504	5499000000
-484	Mexico	México	130739927	649312000000
-492	Monaco	Mónaco	31813	964600000
-496	Mongolia	Mongolia	3281676	15501000000
-498	Moldova, Republic of	Moldavia	3599528	5865000000
-499	Montenegro	Montenegro	599849	3775000000
-500	Montserrat	Montserrat	5468	11900000
-504	Morocco	Marruecos	37387585	58556000000
-508	Mozambique	Mozambique	33350954	9289000000
-512	Oman	Omán	3901992	69701000000
-516	Namibia	Namibia	2803660	5641000000
-520	Nauru	Nauru	9892	187000000
-524	Nepal	Nepal	31122387	2999000000
-528	Netherlands	Países Bajos	17772378	949983000000
-531	Curaçao	Curazao	153289	2049000000
-533	Aruba	Aruba	125063	2853000000
-534	Sint Maarten (Dutch part)	Sint Maarten	32996	1372000000
-535	Bonaire, Sint Eustatius and Saba	Caribe Neerlandés	0	0
-540	New Caledonia	Nueva Caledonia	304167	1920000000
-548	Vanuatu	Vanuatu	318007	152087000
-554	New Zealand	Nueva Zelanda	5161211	59043000000
-558	Nicaragua	Nicaragua	6676948	8250000000
-562	Niger	Níger	26342784	1376000000
-566	Nigeria	Nigeria	236747130	60261000000
-570	Niue	Niue	2000	5680000
-574	Norfolk Island	Isla Norfolk	1748	0
-578	Norway	Noruega	5509733	228625000000
-580	Northern Mariana Islands	Islas Marianas del Norte	51118	128000000
-581	United States Minor Outlying Islands	Las islas Ultramarinas Menores de los Estados Unidos	0	0
-583	Micronesia, Federated States of	Micronesia	99603	179000000
-584	Marshall Islands	Islas Marshall	82011	130016000
-585	Palau	Palaos	21864	24480000
-586	Pakistan	Pakistán	252363571	36442000000
-591	Panama	Panamá	4470241	36569000000
-598	Papua New Guinea	Papúa Nueva Guinea	10046233	11625000000
-600	Paraguay	Paraguay	7522549	18711000000
-604	Peru	Perú	32600249	73326000000
-608	Philippines	Filipinas	118277063	103601000000
-612	Pitcairn	Islas Pitcairn	50	0
-616	Poland	Polonia	38746310	469264000000
-620	Portugal	Portugal	10207177	136589000000
-624	Guinea-Bissau	Guinea-Bisáu	2132325	280065000
-626	Timor-Leste	Timor Oriental	1506909	701808000
-630	Puerto Rico	Puerto Rico	3019450	59787000000
-634	Qatar	Catar	2552088	128726000000
-638	Réunion	Reunión	0	0
-642	Romania	Rumanía	18148155	137337000000
-643	Russian Federation	Rusia	140820810	465432000000
-646	Rwanda	Ruanda	13623302	3509000000
-652	Saint Barthélemy	San Bartolomé	7086	0
-654	Saint Helena, Ascension and Tristan da Cunha	Santa Elena	7943	0
-659	Saint Kitts and Nevis	San Cristóbal y Nieves	55133	577568000
-660	Anguilla	Anguila	19416	7900000
-662	Saint Lucia	Santa Lucía	168038	1415000000
-663	Saint Martin (French part)	San Martín	32996	0
-666	Saint Pierre and Miquelon	San Pedro y Miquelón	5132	0
-670	Saint Vincent and the Grenadines	San Vicente y las Granadinas	100647	347827000
-674	San Marino	San Marino	35095	3420000000
-678	Sao Tome and Principe	Santo Tomé y Príncipe	223561	96977000
-682	Saudi Arabia	Arabia Saudita	36544431	370974000000
-686	Senegal	Senegal	18847519	6780000000
-688	Serbia	Serbia	6652212	44343000000
-690	Seychelles	Seychelles	98187	2375000000
-694	Sierra Leone	Sierra Leona	9121049	1195000000
-702	Singapore	Singapur	6028459	873989000000
-703	Slovakia	Eslovaquia	5563649	121238000000
-704	Viet Nam	Vietnam	105758975	374265000000
-705	Slovenia	Eslovenia	2097893	57489000000
-706	Somalia	Somalia	13017273	819000000
-710	South Africa	Sudáfrica	60442647	124731000000
-716	Zimbabwe	Zimbabue	17150352	7650000000
-724	Spain	España	47280433	615830000000
-728	South Sudan	Sudán del Sur	12703714	5811000000
-729	Sudan	Sudán	50467278	5908000000
-732	Western Sahara	Sahara Occidental	0	0
-740	Suriname	Surinam	646758	2534000000
-744	Svalbard and Jan Mayen	Svalbard y Jan Mayen	2926	0
-748	Swaziland	Suazilandia	0	0
-752	Sweden	Suecia	10589835	324073000000
-756	Switzerland	Suiza	8860574	661628000000
-760	Syrian Arab Republic	Siria	23865423	2224000000
-762	Tajikistan	Tayikistán	10394063	2105000000
-764	Thailand	Tailandia	69920998	336871000000
-768	Togo	Togo	8917994	1722000000
-772	Tokelau	Tokelau	1647	103000
-776	Tonga	Tonga	104889	59926000
-780	Trinidad and Tobago	Trinidad y Tobago	1408966	17584000000
-784	United Arab Emirates	Emiratos Árabes Unidos	10032213	335238000000
-788	Tunisia	Túnez	12048847	17258000000
-792	Turkey	Turquía	84119531	352514000000
-795	Turkmenistan	Turkmenistán	5744151	10282000000
-796	Turks and Caicos Islands	Islas Turcas y Caicos	60439	826824000
-798	Tuvalu	Tuvalu	11733	2232000
-800	Uganda	Uganda	49283041	6115000000
-804	Ukraine	Ucrania	35661826	51093000000
-807	Macedonia, the former Yugoslav Republic of	Macedonia del Norte	2135622	10748000000
-818	Egypt	Egipto	111247248	76295000000
-826	United Kingdom	Reino Unido	68459055	1075000000000
-831	Guernsey	Guernsey	67787	0
-832	Jersey	Jersey	103387	0
-833	Isle of Man	Isla de Man	92269	0
-834	Tanzania, United Republic of	Tanzania	67462121	11986000000
-840	United States	Estados Unidos	341963408	3052000000000
-850	Virgin Islands, U.S.	Islas Vírgenes de los Estados Unidos	104377	4075000000
-854	Burkina Faso	Burkina Faso	23042199	5814000000
-858	Uruguay	Uruguay	3425330	21286000000
-860	Uzbekistan	Uzbekistán	36520593	24536000000
-862	Venezuela, Bolivarian Republic of	Venezuela	31250306	83401000000
-876	Wallis and Futuna	Wallis y Futuna	15964	0
-882	Samoa	Samoa	208853	347190000
-887	Yemen	Yemen	32140443	384500000
-894	Zambia	Zambia	20799116	12444000000
+id	name	name_in_spanish	population	exports	Sistema de gobierno
+-1	Northern Cyprus	Chipre del Norte	0	0	
+-2	Kosovo	Kosovo	0	0	
+-3	Somaliland	Somalilandia	0	0	
+4	Afghanistan	Afganistán	40121552	1476000000	Emirato unitario
+8	Albania	Albania	3107100	9178000000	República parlamentaria
+10	Antarctica	Antártica	0	0	
+12	Algeria	Argelia	47022473	58816000000	República semipresidencialista
+16	American Samoa	Samoa Americana	43895	409000000	
+20	Andorra	Andorra	85370	2736000000	Monarquía parlamentaria
+24	Angola	Angola	37202061	36961000000	República presidencialista
+28	Antigua and Barbuda	Antigua y Barbuda	102634	1217000000	Monarquía constitucional
+31	Azerbaijan	Azerbaiyán	10650239	35487000000	República semipresidencialista
+32	Argentina	Argentina	46994384	83359000000	República presidencialista
+36	Australia	Australia	26768598	447508000000	Monarquía constitucional
+40	Austria	Austria	8967982	306466000000	República parlamentaria
+44	Bahamas	Bahamas	410862	4744000000	Monarquía constitucional
+48	Bahrain	Baréin	1566888	40344000000	Monarquía constitucional
+50	Bangladesh	Bangladés	168697184	58885000000	República parlamentaria
+51	Armenia	Armenia	2976765	14130000000	República parlamentaria
+52	Barbados	Barbados	304139	2228000000	República parlamentaria
+56	Belgium	Bélgica	11977634	535174000000	Monarquía constitucional
+60	Bermuda	Bermudas	72800	1136000000	
+64	Bhutan	Bután	884546	815050000	Monarquía constitucional
+68	Bolivia, Plurinational State of	Bolivia	12311974	11975000000	República presidencialista
+70	Bosnia and Herzegovina	Bosnia y Herzegovina	3798671	11942000000	República parlamentaria
+72	Botswana	Botsuana	2450668	8900000000	República parlamentaria mixta
+74	Bouvet Island	Isla Bouvet	0	0	
+76	Brazil	Brasil	220051512	389626000000	República presidencialista
+84	Belize	Belice	415789	1462000000	Monarquía constitucional 
+86	British Indian Ocean Territory	Territorio Británico del Océano Índico	0	0	
+90	Solomon Islands	Islas Salomón	726799	546025000	Monarquía constitucional
+92	Virgin Islands, British	Islas Vírgenes Británicas	104377	23000000	
+96	Brunei Darussalam	Brunéi	491900	14411000000	Monarquía absoluta
+100	Bulgaria	Bulgaria	6782659	62118000000	República parlamentaria
+104	Myanmar	Birmania	57527139	20400000000	Junta militar
+108	Burundi	Burundi	13590102	285105000	República presidencialista
+112	Belarus	Bielorrusia	9501451	47870000000	República presidencialista
+116	Cambodia	Camboya	17063669	27753000000	Monarquía constitucional 
+120	Cameroon	Camerún	30966105	8641000000	República presidencialista
+124	Canada	Canadá	38794813	717677000000	Monarquía parlamentaria
+132	Cape Verde	Cabo Verde	611014	951224000	República semipresidencialista
+136	Cayman Islands	Islas Caimán	66653	4054000000	
+140	Central African Republic	República Centroafricana	5650957	293074000	República presidencialista
+144	Sri Lanka	Sri Lanka	21982608	17327000000	República semipresidencialista
+148	Chad	Chad	19093595	6503000000	República semipresidencialista
+152	Chile	Chile	18664652	104349000000	República presidencialista
+156	China	China	1416043270	3511000000000	Unipartidista
+158	Taiwan, Province of China	Taiwán	23595274	388490000000	
+162	Christmas Island	Isla de Navidad	1692	0	
+166	Cocos (Keeling) Islands	Islas Cocos	593	0	
+170	Colombia	Colombia	49588357	67762000000	República presidencialista
+174	Comoros	Comoras	900141	165347000	República presidencialista
+175	Mayotte	Mayotte	0	0	
+178	Congo	República del Congo	6097665	7752000000	República presidencialista
+180	Congo, the Democratic Republic of the	República Democrática del Congo	115403027	22354000000	República semipresidencialista
+184	Cook Islands	Islas Cook	7761	31400000	Monarquía constitucional
+188	Costa Rica	Costa Rica	5265575	33699000000	República presidencialista
+191	Croatia	Croacia	4150116	44969000000	República parlamentaria
+192	Cuba	Cuba	10966038	8769000000	Unipartidista
+196	Cyprus	Chipre	1320525	28808000000	República presidencialista
+203	Czech Republic	República Checa	10837890	236688000000	República parlamentaria
+204	Benin	Benín	14697052	4154000000	República presidencialista
+208	Denmark	Dinamarca	5973136	278917000000	Monarquía parlamentaria
+212	Dominica	Dominica	74661	185062000	República parlamentaria
+214	Dominican Republic	República Dominicana	10815857	25843000000	República presidencialista
+218	Ecuador	Ecuador	18309984	34640000000	República presidencialista
+222	El Salvador	El Salvador	6628702	10629000000	República presidencialista
+226	Equatorial Guinea	Guinea Ecuatorial	1795834	6231000000	República presidencialista
+231	Ethiopia	Etiopía	118550298	10865000000	República parlamentaria
+232	Eritrea	Eritrea	6343956	624300000	Unipartidista
+233	Estonia	Estonia	1193791	31939000000	República parlamentaria
+234	Faroe Islands	Islas Feroe	52933	2219000000	
+238	Falkland Islands (Malvinas)	Islas Malvinas	3662	257300000	
+239	South Georgia and the South Sandwich Islands	Islas Georgias del Sur y Sandwich del Sur	0	0	
+242	Fiji	Fiyi	951611	2376000000	República parlamentaria
+246	Finland	Finlandia	5626414	122953000000	República parlamentaria
+248	Åland Islands	Åland	0	0	
+250	France	Francia	68374591	1052000000000	República semipresidencialista
+254	French Guiana	Guayana Francesa	0	0	
+258	French Polynesia	Polinesia Francesa	0	162000000	
+260	French Southern Territories	Territorios Australes Franceses	0	0	
+262	Djibouti	Yibuti	994974	5674000000	República presidencialista
+266	Gabon	Gabón	2455105	12935000000	República presidencialista
+268	Georgia	Georgia	4900961	15161000000	República parlamentaria
+270	Gambia	Gambia	2523327	267377000	República presidencialista
+275	Palestinian Territory, Occupied	Palestina	0	0	República semipresidencialista
+276	Germany	Alemania	84119100	2104000000000	República parlamentaria
+288	Ghana	Ghana	34589092	25744000000	República presidencialista
+292	Gibraltar	Gibraltar	29683	202300000	
+296	Kiribati	Kiribati	116545	19677000	República parlamentaria mixta
+300	Greece	Grecia	10461091	106650000000	República parlamentaria
+304	Greenland	Groenlandia	57751	1147000000	
+308	Grenada	Granada	114621	899153000	Monarquía parlamentaria
+312	Guadeloupe	Guadalupe	0	0	
+316	Guam	Guam	169532	186000000	
+320	Guatemala	Guatemala	18255216	17308000000	República presidencialista
+324	Guinea	Guinea	13986179	8898000000	Junta militar
+328	Guyana	Guyana	794099	11536000000	República semipresidencialista
+332	Haiti	Haití	11753943	1355000000	República semipresidencialista
+334	Heard Island and McDonald Islands	Islas Heard y McDonald	0	0	
+336	Holy See (Vatican City State)	Ciudad del Vaticano	1000	0	
+340	Honduras	Honduras	9529188	9701000000	República presidencialista
+344	Hong Kong	Hong Kong	7297821	673305000000	
+348	Hungary	Hungría	9855745	172484000000	República parlamentaria
+352	Iceland	Islandia	364036	13490000000	República parlamentaria
+356	India	India	1409128296	773224000000	República parlamentaria
+360	Indonesia	Indonesia	281562465	292790000000	República presidencialista
+364	Iran, Islamic Republic of	Irán	88386937	110882000000	República presidencialista
+368	Iraq	Irak	42083436	127079000000	República parlamentaria
+372	Ireland	Irlanda	5233461	731814000000	República parlamentaria
+376	Israel	Israel	9402617	156165000000	República parlamentaria
+380	Italy	Italia	60964931	793589000000	República parlamentaria
+384	Côte d'Ivoire	Costa de Marfil	29981758	17211000000	República presidencialista
+388	Jamaica	Jamaica	2823713	6424000000	Monarquía constitucional
+392	Japan	Japón	123201945	920737000000	Monarquía parlamentaria
+398	Kazakhstan	Kazajistán	20260006	90167000000	República presidencialista
+400	Jordan	Jordania	11174024	20335000000	Monarquía constitucional
+404	Kenya	Kenia	58246378	13859000000	República presidencialista
+408	Korea, Democratic People's Republic of	Corea del Norte	26298666	222000000	Unipartidista
+410	Korea, Republic of	Corea del Sur	52081799	769534000000	República presidencialista
+414	Kuwait	Kuwait	3138355	95476000000	Monarquía constitucional
+417	Kyrgyzstan	Kirguistán	6172101	3628000000	República presidencialista
+418	Lao People's Democratic Republic	Laos	7953556	8604000000	Unipartidista
+422	Lebanon	Líbano	5364482	11770000000	República parlamentaria
+426	Lesotho	Lesoto	2227548	886278000	Monarquía parlamentaria
+428	Latvia	Letonia	1801246	27947000000	República parlamentaria
+430	Liberia	Liberia	5437249	1220000000	República presidencialista
+434	Libya	Libia	7361263	32380000000	Gobierno provisional[
+438	Liechtenstein	Liechtenstein	40272	3217000000	Monarquía constitucional
+440	Lithuania	Lituania	2628186	61101000000	República semipresidencialista
+442	Luxembourg	Luxemburgo	671254	176133000000	Monarquía parlamentaria
+446	Macao	Macao	644426	20985000000	
+450	Madagascar	Madagascar	29452714	4689000000	Junta militar
+454	Malawi	Malaui	21763309	1487000000	República presidencialista
+458	Malaysia	Malasia	34564810	312857000000	Monarquía parlamentaria
+462	Maldives	Maldivas	388858	5096000000	República presidencialista
+466	Mali	Malí	21990607	5855000000	Junta militar
+470	Malta	Malta	469730	25417000000	República parlamentaria
+474	Martinique	Martinica	0	0	
+478	Mauritania	Mauritania	4328040	4132000000	República presidencialista
+480	Mauritius	Mauricio	1310504	5499000000	República parlamentaria
+484	Mexico	México	130739927	649312000000	República presidencialista[
+492	Monaco	Mónaco	31813	964600000	Monarquía constitucional
+496	Mongolia	Mongolia	3281676	15501000000	República semipresidencialista
+498	Moldova, Republic of	Moldavia	3599528	5865000000	República parlamentaria
+499	Montenegro	Montenegro	599849	3775000000	República parlamentaria
+500	Montserrat	Montserrat	5468	11900000	
+504	Morocco	Marruecos	37387585	58556000000	Monarquía constitucional
+508	Mozambique	Mozambique	33350954	9289000000	República presidencialista
+512	Oman	Omán	3901992	69701000000	Monarquía absoluta
+516	Namibia	Namibia	2803660	5641000000	República semipresidencialista
+520	Nauru	Nauru	9892	187000000	República parlamentaria mixta
+524	Nepal	Nepal	31122387	2999000000	República parlamentaria
+528	Netherlands	Países Bajos	17772378	949983000000	Monarquía constitucional
+531	Curaçao	Curazao	153289	2049000000	
+533	Aruba	Aruba	125063	2853000000	
+534	Sint Maarten (Dutch part)	Sint Maarten	32996	1372000000	
+535	Bonaire, Sint Eustatius and Saba	Caribe Neerlandés	0	0	
+540	New Caledonia	Nueva Caledonia	304167	1920000000	
+548	Vanuatu	Vanuatu	318007	152087000	República parlamentaria
+554	New Zealand	Nueva Zelanda	5161211	59043000000	Monarquía parlamentaria
+558	Nicaragua	Nicaragua	6676948	8250000000	República presidencialista
+562	Niger	Níger	26342784	1376000000	Junta militar
+566	Nigeria	Nigeria	236747130	60261000000	República presidencialista
+570	Niue	Niue	2000	5680000	Monarquía constitucional
+574	Norfolk Island	Isla Norfolk	1748	0	
+578	Norway	Noruega	5509733	228625000000	Monarquía parlamentaria
+580	Northern Mariana Islands	Islas Marianas del Norte	51118	128000000	
+581	United States Minor Outlying Islands	Las islas Ultramarinas Menores de los Estados Unidos	0	0	
+583	Micronesia, Federated States of	Micronesia	99603	179000000	República parlamentaria mixta
+584	Marshall Islands	Islas Marshall	82011	130016000	República parlamentaria mixta
+585	Palau	Palaos	21864	24480000	República presidencialista
+586	Pakistan	Pakistán	252363571	36442000000	República parlamentaria
+591	Panama	Panamá	4470241	36569000000	República presidencialista
+598	Papua New Guinea	Papúa Nueva Guinea	10046233	11625000000	Monarquía parlamentaria
+600	Paraguay	Paraguay	7522549	18711000000	República presidencialista
+604	Peru	Perú	32600249	73326000000	República semipresidencialista
+608	Philippines	Filipinas	118277063	103601000000	República presidencialista
+612	Pitcairn	Islas Pitcairn	50	0	
+616	Poland	Polonia	38746310	469264000000	República semipresidencialista
+620	Portugal	Portugal	10207177	136589000000	República semipresidencialista
+624	Guinea-Bissau	Guinea-Bisáu	2132325	280065000	Junta militar
+626	Timor-Leste	Timor Oriental	1506909	701808000	República semipresidencialista
+630	Puerto Rico	Puerto Rico	3019450	59787000000	
+634	Qatar	Catar	2552088	128726000000	Monarquía constitucional[
+638	Réunion	Reunión	0	0	
+642	Romania	Rumanía	18148155	137337000000	República semipresidencialista
+643	Russian Federation	Rusia	140820810	465432000000	República semipresidencialista
+646	Rwanda	Ruanda	13623302	3509000000	República presidencialista
+652	Saint Barthélemy	San Bartolomé	7086	0	
+654	Saint Helena, Ascension and Tristan da Cunha	Santa Elena	7943	0	
+659	Saint Kitts and Nevis	San Cristóbal y Nieves	55133	577568000	Monarquía constitucional 
+660	Anguilla	Anguila	19416	7900000	
+662	Saint Lucia	Santa Lucía	168038	1415000000	Monarquía parlamentaria
+663	Saint Martin (French part)	San Martín	32996	0	
+666	Saint Pierre and Miquelon	San Pedro y Miquelón	5132	0	
+670	Saint Vincent and the Grenadines	San Vicente y las Granadinas	100647	347827000	Monarquía constitucional
+674	San Marino	San Marino	35095	3420000000	República parlamentaria mixta
+678	Sao Tome and Principe	Santo Tomé y Príncipe	223561	96977000	República semipresidencialista
+682	Saudi Arabia	Arabia Saudita	36544431	370974000000	Monarquía absoluta
+686	Senegal	Senegal	18847519	6780000000	República semipresidencialista
+688	Serbia	Serbia	6652212	44343000000	República parlamentaria
+690	Seychelles	Seychelles	98187	2375000000	República presidencialista
+694	Sierra Leone	Sierra Leona	9121049	1195000000	República presidencialista
+702	Singapore	Singapur	6028459	873989000000	República parlamentaria
+703	Slovakia	Eslovaquia	5563649	121238000000	República parlamentaria
+704	Viet Nam	Vietnam	105758975	374265000000	Unipartidista
+705	Slovenia	Eslovenia	2097893	57489000000	República parlamentaria
+706	Somalia	Somalia	13017273	819000000	República parlamentaria
+710	South Africa	Sudáfrica	60442647	124731000000	República parlamentaria mixta
+716	Zimbabwe	Zimbabue	17150352	7650000000	República presidencialista
+724	Spain	España	47280433	615830000000	Monarquía parlamentaria
+728	South Sudan	Sudán del Sur	12703714	5811000000	República presidencialista
+729	Sudan	Sudán	50467278	5908000000	Junta militar
+732	Western Sahara	Sahara Occidental	0	0	
+740	Suriname	Surinam	646758	2534000000	República parlamentaria mixta
+744	Svalbard and Jan Mayen	Svalbard y Jan Mayen	2926	0	
+748	Swaziland	Suazilandia	0	0	Monarquía absoluta
+752	Sweden	Suecia	10589835	324073000000	Monarquía parlamentaria
+756	Switzerland	Suiza	8860574	661628000000	República parlamentaria mixta
+760	Syrian Arab Republic	Siria	23865423	2224000000	Gobierno provisional[
+762	Tajikistan	Tayikistán	10394063	2105000000	República presidencialista
+764	Thailand	Tailandia	69920998	336871000000	Monarquía constitucional
+768	Togo	Togo	8917994	1722000000	República parlamentaria
+772	Tokelau	Tokelau	1647	103000	
+776	Tonga	Tonga	104889	59926000	Monarquía parlamentaria
+780	Trinidad and Tobago	Trinidad y Tobago	1408966	17584000000	República parlamentaria
+784	United Arab Emirates	Emiratos Árabes Unidos	10032213	335238000000	Monarquía constitucional
+788	Tunisia	Túnez	12048847	17258000000	República semipresidencialista
+792	Turkey	Turquía	84119531	352514000000	República presidencialista
+795	Turkmenistan	Turkmenistán	5744151	10282000000	República presidencialista
+796	Turks and Caicos Islands	Islas Turcas y Caicos	60439	826824000	
+798	Tuvalu	Tuvalu	11733	2232000	Monarquía constitucional
+800	Uganda	Uganda	49283041	6115000000	República presidencialista
+804	Ukraine	Ucrania	35661826	51093000000	República semipresidencialista
+807	Macedonia, the former Yugoslav Republic of	Macedonia del Norte	2135622	10748000000	República parlamentaria
+818	Egypt	Egipto	111247248	76295000000	República semipresidencialista
+826	United Kingdom	Reino Unido	68459055	1075000000000	Monarquía parlamentaria
+831	Guernsey	Guernsey	67787	0	
+832	Jersey	Jersey	103387	0	
+833	Isle of Man	Isla de Man	92269	0	
+834	Tanzania, United Republic of	Tanzania	67462121	11986000000	República presidencialista
+840	United States	Estados Unidos	341963408	3052000000000	República presidencialista
+850	Virgin Islands, U.S.	Islas Vírgenes de los Estados Unidos	104377	4075000000	
+854	Burkina Faso	Burkina Faso	23042199	5814000000	Junta militar
+858	Uruguay	Uruguay	3425330	21286000000	República presidencialista
+860	Uzbekistan	Uzbekistán	36520593	24536000000	República semipresidencialista
+862	Venezuela, Bolivarian Republic of	Venezuela	31250306	83401000000	República presidencialista
+876	Wallis and Futuna	Wallis y Futuna	15964	0	
+882	Samoa	Samoa	208853	347190000	Monarquía parlamentaria
+887	Yemen	Yemen	32140443	384500000	Gobierno provisional[
+894	Zambia	Zambia	20799116	12444000000	República presidencialista
