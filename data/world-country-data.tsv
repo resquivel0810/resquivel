@@ -2,36 +2,36 @@ id	name	name_in_spanish	population	exports	Sistema de gobierno
 -1	Northern Cyprus	Chipre del Norte	0	0	null
 -2	Kosovo	Kosovo	0	0	null
 -3	Somaliland	Somalilandia	0	0	null
-4	Afghanistan	Afganistán	40121552	1476000000	Emirato unitario
-8	Albania	Albania	3107100	9178000000	República parlamentaria
-10	Antarctica	Antártica	0	0	null
-12	Algeria	Argelia	47022473	58816000000	República semipresidencialista
-16	American Samoa	Samoa Americana	43895	409000000	null
-20	Andorra	Andorra	85370	2736000000	Monarquía parlamentaria
-24	Angola	Angola	37202061	36961000000	República presidencialista
-28	Antigua and Barbuda	Antigua y Barbuda	102634	1217000000	Monarquía constitucional
-31	Azerbaijan	Azerbaiyán	10650239	35487000000	República semipresidencialista
-32	Argentina	Argentina	46994384	83359000000	República presidencialista
-36	Australia	Australia	26768598	447508000000	Monarquía constitucional
-40	Austria	Austria	8967982	306466000000	República parlamentaria
-44	Bahamas	Bahamas	410862	4744000000	Monarquía constitucional
-48	Bahrain	Baréin	1566888	40344000000	Monarquía constitucional
-50	Bangladesh	Bangladés	168697184	58885000000	República parlamentaria
-51	Armenia	Armenia	2976765	14130000000	República parlamentaria
-52	Barbados	Barbados	304139	2228000000	República parlamentaria
-56	Belgium	Bélgica	11977634	535174000000	Monarquía constitucional
-60	Bermuda	Bermudas	72800	1136000000	null
-64	Bhutan	Bután	884546	815050000	Monarquía constitucional
-68	Bolivia, Plurinational State of	Bolivia	12311974	11975000000	República presidencialista
-70	Bosnia and Herzegovina	Bosnia y Herzegovina	3798671	11942000000	República parlamentaria
-72	Botswana	Botsuana	2450668	8900000000	República parlamentaria mixta
-74	Bouvet Island	Isla Bouvet	0	0	null
-76	Brazil	Brasil	220051512	389626000000	República presidencialista
-84	Belize	Belice	415789	1462000000	Monarquía constitucional 
-86	British Indian Ocean Territory	Territorio Británico del Océano Índico	0	0	null
-90	Solomon Islands	Islas Salomón	726799	546025000	Monarquía constitucional
-92	Virgin Islands, British	Islas Vírgenes Británicas	104377	23000000	null
-96	Brunei Darussalam	Brunéi	491900	14411000000	Monarquía absoluta
+004	Afghanistan	Afganistán	40121552	1476000000	Emirato unitario
+008	Albania	Albania	3107100	9178000000	República parlamentaria
+010	Antarctica	Antártica	0	0	null
+012	Algeria	Argelia	47022473	58816000000	República semipresidencialista
+016	American Samoa	Samoa Americana	43895	409000000	null
+020	Andorra	Andorra	85370	2736000000	Monarquía parlamentaria
+024	Angola	Angola	37202061	36961000000	República presidencialista
+028	Antigua and Barbuda	Antigua y Barbuda	102634	1217000000	Monarquía constitucional
+031	Azerbaijan	Azerbaiyán	10650239	35487000000	República semipresidencialista
+032	Argentina	Argentina	46994384	83359000000	República presidencialista
+036	Australia	Australia	26768598	447508000000	Monarquía constitucional
+040	Austria	Austria	8967982	306466000000	República parlamentaria
+044	Bahamas	Bahamas	410862	4744000000	Monarquía constitucional
+048	Bahrain	Baréin	1566888	40344000000	Monarquía constitucional
+050	Bangladesh	Bangladés	168697184	58885000000	República parlamentaria
+051	Armenia	Armenia	2976765	14130000000	República parlamentaria
+052	Barbados	Barbados	304139	2228000000	República parlamentaria
+056	Belgium	Bélgica	11977634	535174000000	Monarquía constitucional
+060	Bermuda	Bermudas	72800	1136000000	null
+064	Bhutan	Bután	884546	815050000	Monarquía constitucional
+068	Bolivia, Plurinational State of	Bolivia	12311974	11975000000	República presidencialista
+070	Bosnia and Herzegovina	Bosnia y Herzegovina	3798671	11942000000	República parlamentaria
+072	Botswana	Botsuana	2450668	8900000000	República parlamentaria mixta
+074	Bouvet Island	Isla Bouvet	0	0	null
+076	Brazil	Brasil	220051512	389626000000	República presidencialista
+084	Belize	Belice	415789	1462000000	Monarquía constitucional 
+086	British Indian Ocean Territory	Territorio Británico del Océano Índico	0	0	null
+090	Solomon Islands	Islas Salomón	726799	546025000	Monarquía constitucional
+092	Virgin Islands, British	Islas Vírgenes Británicas	104377	23000000	null
+096	Brunei Darussalam	Brunéi	491900	14411000000	Monarquía absoluta
 100	Bulgaria	Bulgaria	6782659	62118000000	República parlamentaria
 104	Myanmar	Birmania	57527139	20400000000	Junta militar
 108	Burundi	Burundi	13590102	285105000	República presidencialista
@@ -251,3 +251,4 @@ id	name	name_in_spanish	population	exports	Sistema de gobierno
 882	Samoa	Samoa	208853	347190000	Monarquía parlamentaria
 887	Yemen	Yemen	32140443	384500000	Gobierno provisional[
 894	Zambia	Zambia	20799116	12444000000	República presidencialista
+
