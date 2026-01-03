@@ -1,4 +1,4 @@
-id	name	name_in_spanish	population	exports	Sistema de gobierno
+id	name	name_in_spanish	population	exports	government_type
 -1	Northern Cyprus	Chipre del Norte	0	0	null
 -2	Kosovo	Kosovo	0	0	null
 -3	Somaliland	Somalilandia	0	0	null
@@ -251,4 +251,5 @@ id	name	name_in_spanish	population	exports	Sistema de gobierno
 882	Samoa	Samoa	208853	347190000	Monarquía parlamentaria
 887	Yemen	Yemen	32140443	384500000	Gobierno provisional[
 894	Zambia	Zambia	20799116	12444000000	República presidencialista
+
 
