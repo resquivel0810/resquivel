@@ -1,0 +1,776 @@
+
+// Función global para toggle del sidebar
+function toggleSidebar() {
+    const sidebar = d3.select("#sidebar");
+    const mobileToggle = d3.select("#mobile-toggle");
+    
+    if (sidebar.classed("open")) {
+        sidebar.classed("open", false);
+        mobileToggle.text("🌍");
+    } else {
+        sidebar.classed("open", true);
+        mobileToggle.text("✕");
+    }
+}
+
+function BarChartRace(chartId, extendedSettings) {
+// Detectar ancho de pantalla para ajustes responsive
+const isMobile = window.innerWidth <= 768;
+
+const defaultSettings = {
+    width: window.innerWidth,
+    height: window.innerHeight - 80, // Restar altura del header
+    padding: isMobile ? 100 : 150,
+    titlePadding: 5,
+    columnPadding: 0.2,
+    ticksInXAxis: isMobile ? 6 : 10,
+    duration: 3500,
+    ...extendedSettings
+};
+
+const chartSettings = defaultSettings;
+
+chartSettings.innerWidth = chartSettings.width - chartSettings.padding * 2;
+chartSettings.innerHeight = chartSettings.height - chartSettings.padding * 2;
+
+const chartDataSets = [];
+let chartTransition;
+let timerStart, timerEnd;
+let currentDataSetIndex = 0;
+let elapsedTime = chartSettings.duration;
+let originalDataSets = [];
+let filteredDataSets = [];
+let selectedCountries = new Set();
+let isPaused = false;
+
+// Almacenar los valores actuales mostrados de cada país
+let currentDisplayedValues = {};
+
+const chartContainer = d3.select(`#${chartId} .chart-container`);
+const xAxisContainer = d3.select(`#${chartId} .x-axis`);
+const yAxisContainer = d3.select(`#${chartId} .y-axis`);
+
+const xAxisScale = d3.scaleLinear().range([0, chartSettings.innerWidth]);
+
+const yAxisScale = d3
+    .scaleBand()
+    .range([0, chartSettings.innerHeight])
+    .padding(chartSettings.columnPadding);
+
+// Inicializar el SVG
+function initChart() {
+    const chartWrapper = document.querySelector('.chart-wrapper');
+    chartSettings.width = chartWrapper.clientWidth;
+    chartSettings.height = chartWrapper.clientHeight - 40;
+    chartSettings.innerWidth = chartSettings.width - chartSettings.padding * 2;
+    chartSettings.innerHeight = chartSettings.height - chartSettings.padding * 2;
+    
+    d3.select(`#${chartId}`)
+        .attr("width", chartSettings.width)
+        .attr("height", chartSettings.height);
+
+    chartContainer.attr(
+        "transform",
+        `translate(${chartSettings.padding} ${chartSettings.padding})`
+    );
+
+    chartContainer
+        .select(".current-date")
+        .attr("transform", `translate(${chartSettings.innerWidth + 10} -20)`);
+        
+    chartContainer
+        .select(".chart-title-text")
+        .attr("x", chartSettings.width / 2)
+        .attr("y", -chartSettings.padding / 2);
+}
+
+// Redimensionar el gráfico
+function resizeChart() {
+    initChart();
+    if (chartDataSets.length > 0 && currentDataSetIndex < chartDataSets.length) {
+        updateImmediately(currentDataSetIndex);
+    }
+}
+
+// Escuchar cambios de tamaño
+window.addEventListener('resize', resizeChart);
+
+// Inicializar al cargar
+setTimeout(initChart, 100);
+
+function applyFilters() {
+    filteredDataSets = originalDataSets.map(dataset => {
+        return {
+            date: dataset.date,
+            dataSet: dataset.dataSet.filter(item => 
+                selectedCountries.has(item.name)
+            )
+        };
+    });
+    
+    chartDataSets.length = 0;
+    chartDataSets.push(...filteredDataSets);
+    
+    // Si estamos en pausa, actualizar inmediatamente sin animación
+    if (isPaused && currentDataSetIndex < chartDataSets.length) {
+        updateImmediately(currentDataSetIndex);
+    }
+}
+
+function updateCheckboxState() {
+    const sidebar = d3.select("#sidebar");
+    const restartButton = d3.select("#restart-button");
+    const checkboxes = d3.selectAll(".checkbox-item input");
+    const sidebarButtons = d3.selectAll(".sidebar-buttons button");
+    
+    if (isPaused) {
+        sidebar.classed("disabled", false);
+        checkboxes.property("disabled", false);
+        sidebarButtons.property("disabled", false);
+        restartButton.property("disabled", false);
+    } else {
+        sidebar.classed("disabled", true);
+        checkboxes.property("disabled", true);
+        sidebarButtons.property("disabled", true);
+        restartButton.property("disabled", true);
+    }
+}
+
+function updateChart() {
+    applyFilters();
+    
+    // Si estamos en pausa, actualizar inmediatamente sin animación
+    if (isPaused && currentDataSetIndex < chartDataSets.length) {
+        updateImmediately(currentDataSetIndex);
+    } else if (chartDataSets.length > 0) {
+        // Si no está en pausa, reiniciar la animación
+        stop();
+        currentDisplayedValues = {};
+        render(0);
+    }
+}
+
+// Actualizar inmediatamente sin transición
+function updateImmediately(index) {
+    if (index < chartDataSets.length) {
+        // Limpiar elementos sin transición
+        chartContainer.select(".columns").selectAll("*").remove();
+        
+        // Dibujar el estado actual sin transición
+        const { dataSet, date: currentDate } = chartDataSets[index];
+        const { innerHeight, ticksInXAxis, titlePadding } = chartSettings;
+        
+        if (dataSet.length === 0) {
+            chartContainer.select(".current-date").text(currentDate + " - Sin datos");
+            return;
+        }
+        
+        const dataSetDescendingOrder = dataSet.sort(
+            ({ value: firstValue }, { value: secondValue }) =>
+                secondValue - firstValue 
+        );
+
+        chartContainer.select(".current-date").text(currentDate);
+
+        xAxisScale.domain([0, dataSetDescendingOrder[0].value]);
+        yAxisScale.domain(dataSetDescendingOrder.map(({ name }) => name));
+
+        // Actualizar ejes inmediatamente
+        xAxisContainer.call(
+            d3.axisTop(xAxisScale)
+                .ticks(ticksInXAxis)
+                .tickSize(-innerHeight)
+                .tickFormat((d) => d + 'TW⋅h')
+        );
+
+        yAxisContainer.call(d3.axisLeft(yAxisScale).tickSize(0));
+
+        // Crear barras inmediatamente sin transición
+        const barGroups = chartContainer
+            .select(".columns")
+            .selectAll("g.column-container")
+            .data(dataSetDescendingOrder, ({ name }) => name);
+
+        // Enter - crear nuevas barras
+        const barGroupsEnter = barGroups
+            .enter()
+            .append("g")
+            .attr("class", "column-container")
+            .attr("transform", (d) => `translate(0,${yAxisScale(d.name)})`);
+
+        barGroupsEnter
+            .append("rect")
+            .attr("class", "column-rect")
+            .attr("width", (d) => xAxisScale(d.value))
+            .attr("height", yAxisScale.step() * (1 - chartSettings.columnPadding))
+            .attr("fill", ({category}) => {
+                const cat = category === 'Other' ? 'Oceania' : category;
+                switch(cat) {
+                    case 'North America': return "#e60049";
+                    case 'Asia': return '#0bb4ff';
+                    case 'Europe': return '#50e991';
+                    case 'South America': return '#e6d800';
+                    case 'Africa': return '#9b19f5';
+                    case 'Oceania': return '#ffa300';
+                    default: return '#ffa300';
+                }
+            });
+
+        barGroupsEnter
+            .append("text")
+            .attr("class", "column-value")
+            .attr("y", (yAxisScale.step() * (1 - chartSettings.columnPadding + 1)) / 2)
+            .attr("x", (d) => xAxisScale(d.value) + titlePadding)
+            .text((d) => Math.round(d.value));
+
+        // Update - actualizar barras existentes
+        barGroupsEnter.merge(barGroups)
+            .attr("transform", (d) => `translate(0,${yAxisScale(d.name)})`)
+            .select(".column-rect")
+            .attr("width", (d) => xAxisScale(d.value))
+            .attr("fill", ({category}) => {
+                const cat = category === 'Other' ? 'Oceania' : category;
+                switch(cat) {
+                    case 'North America': return "#e60049";
+                    case 'Asia': return '#0bb4ff';
+                    case 'Europe': return '#50e991';
+                    case 'South America': return '#e6d800';
+                    case 'Africa': return '#9b19f5';
+                    case 'Oceania': return '#ffa300';
+                    default: return '#ffa300';
+                }
+            });
+
+        barGroupsEnter.merge(barGroups)
+            .select(".column-value")
+            .attr("x", (d) => xAxisScale(d.value) + titlePadding)
+            .text((d) => Math.round(d.value));
+
+        // Exit - eliminar barras inmediatamente
+        barGroups.exit().remove();
+        
+        // Guardar los valores mostrados
+        dataSetDescendingOrder.forEach(item => {
+            currentDisplayedValues[item.name] = item.value;
+        });
+    }
+}
+
+function draw({ dataSet, date: currentDate }, transition) {
+    const { innerHeight, ticksInXAxis, titlePadding } = chartSettings;
+    
+    if (dataSet.length === 0) {
+        chartContainer.select(".current-date").text(currentDate + " - Sin datos");
+        chartContainer.select(".columns").selectAll("*").remove();
+        return this;
+    }
+    
+    const dataSetDescendingOrder = dataSet.sort(
+    ({ value: firstValue }, { value: secondValue }) =>
+        secondValue - firstValue 
+    );
+
+    chartContainer.select(".current-date").text(currentDate);
+
+    xAxisScale.domain([0, dataSetDescendingOrder[0].value]);
+    yAxisScale.domain(dataSetDescendingOrder.map(({ name }) => name));
+
+    xAxisContainer.transition(transition).call(
+    d3
+        .axisTop(xAxisScale)
+        .ticks(ticksInXAxis)
+        .tickSize(-innerHeight)
+        .tickFormat((d) => d + 'TW⋅h')
+    );
+
+    yAxisContainer
+    .transition(transition)
+    .call(d3.axisLeft(yAxisScale).tickSize(0));
+
+    const barGroups = chartContainer
+    .select(".columns")
+    .selectAll("g.column-container")
+    .data(dataSetDescendingOrder, ({ name }) => name);
+
+    // SI ES EL FRAME 1 (índice 0), mostrar barras inmediatamente
+    if (currentDataSetIndex === 0) {
+        const barGroupsEnter = barGroups
+        .enter()
+        .append("g")
+        .attr("class", "column-container")
+        .attr("transform", ({ name }) => `translate(0,${yAxisScale(name)})`);
+
+        barGroupsEnter
+        .append("rect")
+        .attr("class", "column-rect")
+        .attr("width", ({ value }) => xAxisScale(value))
+        .attr("height", yAxisScale.step() * (1 - chartSettings.columnPadding))
+        .attr("fill", ({category}) => {
+            const cat = category === 'Other' ? 'Oceania' : category;
+            switch(cat) {
+                case 'North America': return "#e60049";
+                case 'Asia': return '#0bb4ff';
+                case 'Europe': return '#50e991';
+                case 'South America': return '#e6d800';
+                case 'Africa': return '#9b19f5';
+                case 'Oceania': return '#ffa300';
+                default: return '#ffa300';
+            }
+        });
+
+        barGroupsEnter
+        .append("text")
+        .attr("class", "column-value")
+        .attr("y", (yAxisScale.step() * (1 - chartSettings.columnPadding + 1)) / 2)
+        .attr("x", ({ value }) => xAxisScale(value) + titlePadding)
+        .text((d) => Math.round(d.value));
+
+        const barUpdate = barGroupsEnter.merge(barGroups);
+
+        barUpdate
+        .attr("transform", ({ name }) => `translate(0,${yAxisScale(name)})`);
+
+        barUpdate
+        .select(".column-rect")
+        .attr("width", ({ value }) => xAxisScale(value))
+        .attr("fill", ({category}) => {
+            const cat = category === 'Other' ? 'Oceania' : category;
+            switch(cat) {
+                case 'North America': return "#e60049";
+                case 'Asia': return '#0bb4ff';
+                case 'Europe': return '#50e991';
+                case 'South America': return '#e6d800';
+                case 'Africa': return '#9b19f5';
+                case 'Oceania': return '#ffa300';
+                default: return '#ffa300';
+            }
+        });
+
+        barUpdate
+        .select(".column-value")
+        .attr("x", ({ value }) => xAxisScale(value) + titlePadding)
+        .text((d) => Math.round(d.value));
+            
+        // Guardar los valores mostrados
+        dataSetDescendingOrder.forEach(item => {
+            currentDisplayedValues[item.name] = item.value;
+        });
+        
+    } else {
+        // Para frames siguientes, aplicar transición normal
+        const barGroupsEnter = barGroups
+        .enter()
+        .append("g")
+        .attr("class", "column-container")
+        .attr("transform", ({ name }) => `translate(0,${yAxisScale(name)})`);
+
+        // Para nuevos países, comenzar desde 0
+        barGroupsEnter
+        .append("rect")
+        .attr("class", "column-rect")
+        .attr("width", 0)
+        .attr("height", yAxisScale.step() * (1 - chartSettings.columnPadding))
+        .attr("fill", ({category}) => {
+            const cat = category === 'Other' ? 'Oceania' : category;
+            switch(cat) {
+                case 'North America': return "#e60049";
+                case 'Asia': return '#0bb4ff';
+                case 'Europe': return '#50e991';
+                case 'South America': return '#e6d800';
+                case 'Africa': return '#9b19f5';
+                case 'Oceania': return '#ffa300';
+                default: return '#ffa300';
+            }
+        });
+
+        barGroupsEnter
+        .append("text")
+        .attr("class", "column-value")
+        .attr("y", (yAxisScale.step() * (1 - chartSettings.columnPadding + 1)) / 2)
+        .attr("x", titlePadding)
+        .text(0);
+
+        const barUpdate = barGroupsEnter.merge(barGroups);
+
+        // Transición de posición (para ordenamiento)
+        barUpdate
+        .transition(transition)
+        .attr("transform", ({ name }) => `translate(0,${yAxisScale(name)})`);
+
+        // Transición del ancho de la barra
+        barUpdate
+        .select(".column-rect")
+        .transition(transition)
+        .attr("width", ({ value }) => xAxisScale(value))
+        .attr("fill", ({category}) => {
+            const cat = category === 'Other' ? 'Oceania' : category;
+            switch(cat) {
+                case 'North America': return "#e60049";
+                case 'Asia': return '#0bb4ff';
+                case 'Europe': return '#50e991';
+                case 'South America': return '#e6d800';
+                case 'Africa': return '#9b19f5';
+                case 'Oceania': return '#ffa300';
+                default: return '#ffa300';
+            }
+        });
+
+        // Transición del texto - interpolar desde el valor actualmente mostrado
+        barUpdate
+        .select(".column-value")
+        .transition(transition)
+        .attr("x", ({ value }) => xAxisScale(value) + titlePadding)
+        .tween("text", function({ name, value }) {
+            // Obtener el valor actualmente mostrado para este país
+            const startValue = currentDisplayedValues[name] || 0;
+            const interpolate = d3.interpolate(startValue, value);
+            
+            // Guardar el valor final para la próxima transición
+            currentDisplayedValues[name] = value;
+            
+            return function(t) {
+                const currentVal = interpolate(t);
+                d3.select(this).text(Math.round(currentVal));
+            };
+        });
+    }
+
+    // Exit - eliminación inmediata cuando se quita un país
+    barGroups.exit()
+        .each(function(d) {
+            if (d && d.name) {
+                delete currentDisplayedValues[d.name];
+            }
+        })
+        .remove();
+
+    return this;
+}
+
+function addDataset(dataSet) {
+    chartDataSets.push(dataSet);
+    originalDataSets.push(dataSet);
+    return this;
+}
+
+function addDatasets(dataSets) {
+    chartDataSets.push.apply(chartDataSets, dataSets);
+    originalDataSets.push.apply(originalDataSets, dataSets);
+    return this;
+}
+
+function setTitle(title) {
+    chartContainer
+        .select(".chart-title-text")
+        .text(title);
+    return this;
+}
+
+function generateCountryCheckboxes(allCountriesWithData) {
+    const checkboxContainer = d3.select("#country-checkboxes");
+    checkboxContainer.html("");
+    
+    // Agrupar países por continente
+    const countriesByContinent = {};
+    allCountriesWithData.forEach(country => {
+        const category = country.category === 'Other' ? 'Oceania' : country.category;
+        if (!countriesByContinent[category]) {
+            countriesByContinent[category] = [];
+        }
+        countriesByContinent[category].push({...country, category});
+    });
+    
+    // Ordenar continentes
+    const continentOrder = ['North America', 'Asia', 'Europe', 'South America', 'Africa', 'Oceania'];
+    
+    // Añadir cada continente con su header
+    continentOrder.forEach(continent => {
+        if (countriesByContinent[continent] && countriesByContinent[continent].length > 0) {
+            // Header del continente
+            const continentGroup = checkboxContainer.append("div")
+                .attr("class", "checkbox-group");
+            
+            continentGroup.append("div")
+                .attr("class", `continent-header ${getContinentClass(continent)}`)
+                .text(getContinentName(continent));
+            
+            // Lista de países
+            const countryList = continentGroup.append("div")
+                .attr("class", "country-list");
+            
+            // Países del continente
+            countriesByContinent[continent].sort((a, b) => a.name.localeCompare(b.name))
+                .forEach(country => {
+                    const checkboxItem = countryList.append("div")
+                        .attr("class", "checkbox-item");
+                    
+                    checkboxItem.append("input")
+                        .attr("type", "checkbox")
+                        .attr("id", `country-${country.name.replace(/\s+/g, '-')}`)
+                        .attr("value", country.name)
+                        .property("checked", selectedCountries.has(country.name))
+                        .on("change", function() {
+                            if (!isPaused) return;
+                            
+                            if (this.checked) {
+                                selectedCountries.add(country.name);
+                            } else {
+                                selectedCountries.delete(country.name);
+                            }
+                            updateChart();
+                        });
+                    
+                    checkboxItem.append("label")
+                        .attr("for", `country-${country.name.replace(/\s+/g, '-')}`)
+                        .text(country.name);
+                });
+        }
+    });
+    
+    updateCheckboxState();
+}
+
+function getContinentClass(continent) {
+    switch(continent) {
+        case 'North America': return 'north-america';
+        case 'Asia': return 'asia';
+        case 'Europe': return 'europe';
+        case 'South America': return 'south-america';
+        case 'Africa': return 'africa';
+        case 'Oceania': return 'oceania';
+        default: return 'oceania';
+    }
+}
+
+function getContinentName(continent) {
+    switch(continent) {
+        case 'North America': return '🌎 América del Norte';
+        case 'Asia': return '🌏 Asia';
+        case 'Europe': return '🌍 Europa';
+        case 'South America': return '🌎 América del Sur';
+        case 'Africa': return '🌍 África';
+        case 'Oceania': return '🦘 Oceanía';
+        default: return '🦘 ' + continent;
+    }
+}
+
+async function render(index = 0) {
+    if (isPaused) return this;
+    
+    currentDataSetIndex = index;
+    timerStart = d3.now();
+
+    if (index === 0) {
+        draw(chartDataSets[index], null);
+        
+        if (index < chartDataSets.length - 1 && !isPaused) {
+            setTimeout(() => {
+                elapsedTime = chartSettings.duration;
+                render(index + 1);
+            }, 1000);
+        }
+        return this;
+    }
+    
+    chartTransition = chartContainer
+    .transition()
+    .duration(elapsedTime)
+    .ease(d3.easeLinear)
+    .on("end", () => {
+        if (index < chartDataSets.length - 1 && !isPaused) {
+        elapsedTime = chartSettings.duration;
+        render(index + 1);
+        } else if (!isPaused) {
+        d3.select("#pause-button").text("▶️ Reproducir");
+        }
+    })
+    .on("interrupt", () => {
+        if (!isPaused) {
+            timerEnd = d3.now();
+        }
+    });
+
+    if (index < chartDataSets.length) {
+    draw(chartDataSets[index], chartTransition);
+    }
+
+    return this;
+}
+
+function stop() {
+    d3.select(`#${chartId}`)
+    .selectAll("*")
+    .interrupt();
+    return this;
+}
+
+function start() {
+    if (!isPaused) {
+        elapsedTime -= timerEnd - timerStart;
+        render(currentDataSetIndex);
+    }
+    return this;
+}
+
+function pause() {
+    isPaused = true;
+    stop();
+    updateCheckboxState();
+    d3.select("#pause-button").text("▶️ Reproducir");
+    return this;
+}
+
+function resume() {
+    isPaused = false;
+    start();
+    updateCheckboxState();
+    d3.select("#pause-button").text("⏸️ Pausar");
+    return this;
+}
+
+function restart() {
+    stop();
+    currentDataSetIndex = 0;
+    elapsedTime = chartSettings.duration;
+    currentDisplayedValues = {};
+    isPaused = false;
+    updateCheckboxState();
+    d3.select("#pause-button").text("⏸️ Pausar");
+    render(0);
+    return this;
+}
+
+return {
+    addDataset,
+    addDatasets,
+    render,
+    setTitle,
+    start,
+    stop,
+    pause,
+    resume,
+    restart,
+    generateCountryCheckboxes,
+    applyFilters,
+    updateChart,
+    updateImmediately,
+    selectedCountries,
+    isPaused: () => isPaused,
+    resizeChart
+};
+}
+
+
+// Inicializar la aplicación
+const myChart = new BarChartRace("bar-chart-race");
+
+// Cargar datos
+d3.json("https://resquivel0810.github.io/resquivel/data/total_generation.json").then(function(data) {
+    if (!data || data.length === 0) {
+        console.error("No se pudo cargar los datos");
+        return;
+    }
+    
+    // Procesar datos
+    data.forEach(dataset => {
+        if (dataset.dataSet && dataset.dataSet.length > 0) {
+            dataset.dataSet.forEach(item => {
+                if (item.value) {
+                    item.value = parseFloat(item.value) || 0;
+                }
+            });
+        }
+    });
+    
+    // Obtener países con sus continentes
+    let allCountriesWithData = [];
+    data.forEach(dataset => {
+        if (dataset.dataSet && dataset.dataSet.length > 0) {
+            dataset.dataSet.forEach(item => {
+                if (item.name && !allCountriesWithData.find(c => c.name === item.name)) {
+                    allCountriesWithData.push({
+                        name: item.name,
+                        category: item.category || 'Oceania'
+                    });
+                }
+            });
+        }
+    });
+    
+    // Seleccionar todos los países por defecto
+    allCountriesWithData.forEach(country => {
+        myChart.selectedCountries.add(country.name);
+    });
+    
+    // Generar checkboxes
+    myChart.generateCountryCheckboxes(allCountriesWithData);
+    
+    // Configurar gráfico
+    myChart
+        .setTitle("Generación eléctrica 2000-2023")
+        .addDatasets(data);
+    
+    myChart.applyFilters();
+    
+    if (data.length > 0) {
+        myChart.render(0);
+    }
+    
+}).catch(function(error) {
+    console.error("Error al cargar los datos:", error);
+});
+
+// Event Listeners
+d3.select("#pause-button").on("click", function() {
+    if (this.innerHTML.includes("Pausar")) {
+        myChart.pause();
+    } else {
+        myChart.resume();
+    }
+});
+
+d3.select("#restart-button").on("click", function() {
+    myChart.restart();
+});
+
+d3.select("#mobile-toggle").on("click", function() {
+    toggleSidebar();
+});
+
+d3.select("#select-all").on("click", function() {
+    if (!myChart.isPaused()) return;
+    
+    d3.selectAll(".checkbox-item input")
+        .property("checked", true);
+    
+    myChart.selectedCountries.clear();
+    d3.selectAll(".checkbox-item input").each(function() {
+        myChart.selectedCountries.add(this.value);
+    });
+    
+    myChart.updateChart();
+});
+
+d3.select("#deselect-all").on("click", function() {
+    if (!myChart.isPaused()) return;
+    
+    d3.selectAll(".checkbox-item input")
+        .property("checked", false);
+    
+    myChart.selectedCountries.clear();
+    myChart.updateChart();
+});
+
+// Cerrar sidebar al hacer clic fuera en móviles
+document.addEventListener('click', function(event) {
+    if (window.innerWidth <= 768) {
+        const sidebar = document.getElementById('sidebar');
+        const mobileToggle = document.getElementById('mobile-toggle');
+        
+        if (sidebar.classList.contains('open') &&
+            !sidebar.contains(event.target) &&
+            !mobileToggle.contains(event.target)) {
+            toggleSidebar();
+        }
+    }
+});
