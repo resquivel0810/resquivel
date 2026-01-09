@@ -126,7 +126,7 @@ id	name	name_in_spanish	flag	population	exports	government_type
 426	Lesotho	Lesoto	🇱🇸	2227548	886278000	Monarquía parlamentaria
 428	Latvia	Letonia	🇱🇻	1801246	27947000000	República parlamentaria
 430	Liberia	Liberia	🇱🇷	5437249	1220000000	República presidencialista
-434	Libya	Libia	🇱🇾	7361263	32380000000	Gobierno provisional[
+434	Libya	Libia	🇱🇾	7361263	32380000000	Gobierno provisional
 438	Liechtenstein	Liechtenstein	🇱🇮	40272	3217000000	Monarquía constitucional
 440	Lithuania	Lituania	🇱🇹	2628186	61101000000	República semipresidencialista
 442	Luxembourg	Luxemburgo	🇱🇺	671254	176133000000	Monarquía parlamentaria
@@ -140,7 +140,7 @@ id	name	name_in_spanish	flag	population	exports	government_type
 474	Martinique	Martinica	🇲🇶	0	0	null
 478	Mauritania	Mauritania	🇲🇷	4328040	4132000000	República presidencialista
 480	Mauritius	Mauricio	🇲🇺	1310504	5499000000	República parlamentaria
-484	Mexico	México	🇲🇽	130739927	649312000000	República presidencialista[
+484	Mexico	México	🇲🇽	130739927	649312000000	República presidencialista
 492	Monaco	Mónaco	🇲🇨	31813	964600000	Monarquía constitucional
 496	Mongolia	Mongolia	🇲🇳	3281676	15501000000	República semipresidencialista
 498	Moldova, Republic of	Moldavia	🇲🇩	3599528	5865000000	República parlamentaria
@@ -183,7 +183,7 @@ id	name	name_in_spanish	flag	population	exports	government_type
 624	Guinea-Bissau	Guinea-Bisáu	🇬🇼	2132325	280065000	Junta militar
 626	Timor-Leste	Timor Oriental	🇹🇱	1506909	701808000	República semipresidencialista
 630	Puerto Rico	Puerto Rico	🇵🇷	3019450	59787000000	null
-634	Qatar	Catar	🇶🇦	2552088	128726000000	Monarquía constitucional[
+634	Qatar	Catar	🇶🇦	2552088	128726000000	Monarquía constitucional
 638	Réunion	Reunión	🇷🇪	0	0	null
 642	Romania	Rumanía	🇷🇴	18148155	137337000000	República semipresidencialista
 643	Russian Federation	Rusia	🇷🇺	140820810	465432000000	República semipresidencialista
@@ -219,7 +219,7 @@ id	name	name_in_spanish	flag	population	exports	government_type
 748	Swaziland	Suazilandia	🇸🇿	0	0	Monarquía absoluta
 752	Sweden	Suecia	🇸🇪	10589835	324073000000	Monarquía parlamentaria
 756	Switzerland	Suiza	🇨🇭	8860574	661628000000	República parlamentaria mixta
-760	Syrian Arab Republic	Siria	🇸🇾	23865423	2224000000	Gobierno provisional[
+760	Syrian Arab Republic	Siria	🇸🇾	23865423	2224000000	Gobierno provisional
 762	Tajikistan	Tayikistán	🇹🇯	10394063	2105000000	República presidencialista
 764	Thailand	Tailandia	🇹🇭	69920998	336871000000	Monarquía constitucional
 768	Togo	Togo	🇹🇬	8917994	1722000000	República parlamentaria
@@ -249,6 +249,7 @@ id	name	name_in_spanish	flag	population	exports	government_type
 862	Venezuela, Bolivarian Republic of	Venezuela	🇻🇪	31250306	83401000000	República presidencialista
 876	Wallis and Futuna	Wallis y Futuna	🇼🇫	15964	0	null
 882	Samoa	Samoa	🇼🇸	208853	347190000	Monarquía parlamentaria
-887	Yemen	Yemen	🇾🇪	32140443	384500000	Gobierno provisional[
+887	Yemen	Yemen	🇾🇪	32140443	384500000	Gobierno provisional
 894	Zambia	Zambia	🇿🇲	20799116	12444000000	República presidencialista
+
 
