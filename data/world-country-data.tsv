@@ -140,7 +140,7 @@ id	name	name_in_spanish	population	exports	government_type
 474	Martinique	Martinica	0	0	null
 478	Mauritania	Mauritania	4328040	4132000000	República presidencialista
 480	Mauritius	Mauricio	1310504	5499000000	República parlamentaria
-484	Mexico	México	130739927	649312000000	República presidencialista[
+484	Mexico🇲🇽	México🇲🇽	130739927	649312000000	República presidencialista[
 492	Monaco	Mónaco	31813	964600000	Monarquía constitucional
 496	Mongolia	Mongolia	3281676	15501000000	República semipresidencialista
 498	Moldova, Republic of	Moldavia	3599528	5865000000	República parlamentaria
@@ -251,5 +251,6 @@ id	name	name_in_spanish	population	exports	government_type
 882	Samoa	Samoa	208853	347190000	Monarquía parlamentaria
 887	Yemen	Yemen	32140443	384500000	Gobierno provisional[
 894	Zambia	Zambia	20799116	12444000000	República presidencialista
+
 
 
