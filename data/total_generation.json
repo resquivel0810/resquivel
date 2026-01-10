@@ -10078,5 +10078,420 @@
                 "value": "1.14"
             }
         ]
+    },
+    {
+      "date": 2024,
+      "dataSet": [
+        {
+              "name": "China",
+              "category": "Asia",
+              "value": "10086.88"
+        },
+        {
+              "name": "Estados Unidos de América",
+              "category": "North America",
+              "value": "4391.02"
+        },
+        {
+              "name": "India",
+              "category": "Asia",
+              "value": "2030.2"
+        },
+        {
+              "name": "Federación Rusa",
+              "category": "Europe",
+              "value": "1209.31"
+        },
+        {
+              "name": "Japón",
+              "category": "Asia",
+              "value": "1016.39"
+        },
+        {
+              "name": "Brasil",
+              "category": "South America",
+              "value": "745.72"
+        },
+        {
+              "name": "Canadá",
+              "category": "North America",
+              "value": "636.79"
+        },
+        {
+              "name": "Corea del Sur",
+              "category": "Asia",
+              "value": "625.38"
+        },
+        {
+              "name": "Francia",
+              "category": "Europe",
+              "value": "560.11"
+        },
+        {
+              "name": "Alemania",
+              "category": "Europe",
+              "value": "493"
+        },
+        {
+              "name": "Arabia Saudita",
+              "category": "Asia",
+              "value": "454.64"
+        },
+        {
+              "name": "Irán (República Islámica del)",
+              "category": "Asia",
+              "value": "395.79"
+        },
+        {
+              "name": "Indonesia",
+              "category": "Asia",
+              "value": "371.54"
+        },
+        {
+              "name": "México",
+              "category": "North America",
+              "value": "355.18"
+        },
+        {
+              "name": "Turquía",
+              "category": "Asia",
+              "value": "341.23"
+        },
+        {
+              "name": "Vietnam",
+              "category": "Asia",
+              "value": "303.58"
+        },
+        {
+              "name": "Taiwán",
+              "category": "Asia",
+              "value": "288.56"
+        },
+        {
+              "name": "Reino Unido",
+              "category": "Europe",
+              "value": "284.16"
+        },
+        {
+              "name": "España",
+              "category": "Europe",
+              "value": "281.65"
+        },
+        {
+              "name": "Australia",
+              "category": "Oceania",
+              "value": "281.64"
+        },
+        {
+              "name": "Italia",
+              "category": "Europe",
+              "value": "267.51"
+        },
+        {
+              "name": "Sudáfrica",
+              "category": "Africa",
+              "value": "249.07"
+        },
+        {
+              "name": "Egipto",
+              "category": "Africa",
+              "value": "237.39"
+        },
+        {
+              "name": "Tailandia",
+              "category": "Asia",
+              "value": "199.52"
+        },
+        {
+              "name": "Malasia",
+              "category": "Asia",
+              "value": "198.22"
+        },
+        {
+              "name": "Pakistán",
+              "category": "Asia",
+              "value": "182.1"
+        },
+        {
+              "name": "Emiratos Árabes Unidos",
+              "category": "Asia",
+              "value": "177.26"
+        },
+        {
+              "name": "Suecia",
+              "category": "Europe",
+              "value": "171.99"
+        },
+        {
+              "name": "Polonia",
+              "category": "Europe",
+              "value": "171.05"
+        },
+        {
+              "name": "Noruega",
+              "category": "Europe",
+              "value": "156.12"
+        },
+        {
+              "name": "Argentina",
+              "category": "South America",
+              "value": "152.51"
+        },
+        {
+              "name": "Filipinas",
+              "category": "Asia",
+              "value": "125.86"
+        },
+        {
+              "name": "Países Bajos",
+              "category": "Europe",
+              "value": "122.51"
+        },
+        {
+              "name": "Kazajistán",
+              "category": "Asia",
+              "value": "118.51"
+        },
+        {
+              "name": "Bangladés",
+              "category": "Asia",
+              "value": "113.86"
+        },
+        {
+              "name": "Chile",
+              "category": "South America",
+              "value": "89.26"
+        },
+        {
+              "name": "Kuwait",
+              "category": "Asia",
+              "value": "87.66"
+        },
+        {
+              "name": "Colombia",
+              "category": "South America",
+              "value": "87.51"
+        },
+        {
+              "name": "Finlandia",
+              "category": "Europe",
+              "value": "82.17"
+        },
+        {
+              "name": "Austria",
+              "category": "Europe",
+              "value": "78.77"
+        },
+        {
+              "name": "Bélgica",
+              "category": "Europe",
+              "value": "76.03"
+        },
+        {
+              "name": "Suiza",
+              "category": "Europe",
+              "value": "75.76"
+        },
+        {
+              "name": "República Checa",
+              "category": "Europe",
+              "value": "72.82"
+        },
+        {
+              "name": "Perú",
+              "category": "South America",
+              "value": "63.85"
+        },
+        {
+              "name": "Singapur",
+              "category": "Asia",
+              "value": "59.61"
+        },
+        {
+              "name": "Qatar",
+              "category": "Asia",
+              "value": "58.64"
+        },
+        {
+              "name": "Grecia",
+              "category": "Europe",
+              "value": "56.98"
+        },
+        {
+              "name": "Rumania",
+              "category": "Europe",
+              "value": "52.72"
+        },
+        {
+              "name": "Portugal",
+              "category": "Europe",
+              "value": "47.32"
+        },
+        {
+              "name": "Bielorrusia",
+              "category": "Europe",
+              "value": "45.69"
+        },
+        {
+              "name": "Nueva Zelanda",
+              "category": "Oceania",
+              "value": "44.46"
+        },
+        {
+              "name": "Marruecos",
+              "category": "Africa",
+              "value": "43.88"
+        },
+        {
+              "name": "Omán",
+              "category": "Asia",
+              "value": "43.35"
+        },
+        {
+              "name": "Nigeria",
+              "category": "Africa",
+              "value": "40.13"
+        },
+        {
+              "name": "Bulgaria",
+              "category": "Europe",
+              "value": "38.33"
+        },
+        {
+              "name": "Hungría",
+              "category": "Europe",
+              "value": "37.98"
+        },
+        {
+              "name": "Serbia",
+              "category": "Europe",
+              "value": "37.46"
+        },
+        {
+              "name": "Dinamarca",
+              "category": "Europe",
+              "value": "35.18"
+        },
+        {
+              "name": "Ecuador",
+              "category": "South America",
+              "value": "33"
+        },
+        {
+              "name": "Irlanda",
+              "category": "Europe",
+              "value": "30.96"
+        },
+        {
+              "name": "Eslovaquia",
+              "category": "Europe",
+              "value": "29.52"
+        },
+        {
+              "name": "Azerbaiyán",
+              "category": "Asia",
+              "value": "28.02"
+        },
+        {
+              "name": "República Dominicana",
+              "category": "North America",
+              "value": "25.94"
+        },
+        {
+              "name": "Myanmar",
+              "category": "Asia",
+              "value": "24.68"
+        },
+        {
+              "name": "Tayikistán",
+              "category": "Asia",
+              "value": "21.68"
+        },
+        {
+              "name": "Túnez",
+              "category": "Africa",
+              "value": "20.83"
+        },
+        {
+              "name": "Puerto Rico",
+              "category": "North America",
+              "value": "18.72"
+        },
+        {
+              "name": "Uruguay",
+              "category": "South America",
+              "value": "17.27"
+        },
+        {
+              "name": "Eslovenia",
+              "category": "Europe",
+              "value": "16.71"
+        },
+        {
+              "name": "Kirguistán",
+              "category": "Asia",
+              "value": "16.23"
+        },
+        {
+              "name": "Camboya",
+              "category": "Asia",
+              "value": "15.72"
+        },
+        {
+              "name": "Bosnia y Herzegovina",
+              "category": "Europe",
+              "value": "15.16"
+        },
+        {
+              "name": "Croacia",
+              "category": "Europe",
+              "value": "15.12"
+        },
+        {
+              "name": "Georgia",
+              "category": "Asia",
+              "value": "14.26"
+        },
+        {
+              "name": "Kenia",
+              "category": "Africa",
+              "value": "12.85"
+        },
+        {
+              "name": "Costa Rica",
+              "category": "North America",
+              "value": "12.38"
+        },
+        {
+              "name": "Bolivia",
+              "category": "South America",
+              "value": "12.35"
+        },
+        {
+              "name": "Armenia",
+              "category": "Asia",
+              "value": "8.89"
+        },
+        {
+              "name": "Mongolia",
+              "category": "Asia",
+              "value": "8.38"
+        },
+        {
+              "name": "Lituania",
+              "category": "Europe",
+              "value": "7.3"
+        },
+        {
+              "name": "El Salvador",
+              "category": "North America",
+              "value": "7.05"
+        },
+        {
+              "name": "Kosovo",
+              "category": "Europe",
+              "value": "6.51"
+        }
+      ]
     }
 ]
