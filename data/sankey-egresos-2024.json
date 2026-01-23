@@ -55,7 +55,7 @@
         {"source": 0, "target": 1, "value": 165638.1},
         {"source": 0, "target": 2, "value": 1168.4},
         {"source": 0, "target": 3, "value": 14245.3},
-        {"source": 0, "target": 4, "value": 2403544.9},  // Valor corregido de Ramos Administrativos
+        {"source": 0, "target": 4, "value": 2403544.9},  
         {"source": 0, "target": 5, "value": 2668064.2},
         {"source": 0, "target": 6, "value": 1821779.7},
         {"source": 0, "target": 7, "value": 949402.1},
@@ -96,7 +96,7 @@
         {"source": 5, "target": 42, "value": 985976.9},
         {"source": 6, "target": 43, "value": 1345950.7},
         {"source": 6, "target": 44, "value": 475829.0},
-        {"source": 7, "target": 45, "value": 456021.4},  // TYY Pemex viene de Empresas Productivas
-        {"source": 7, "target": 46, "value": 493380.7}   // TVV CFE viene de Empresas Productivas
+        {"source": 7, "target": 45, "value": 456021.4}, 
+        {"source": 7, "target": 46, "value": 493380.7}  
     ]
 }
