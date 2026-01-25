@@ -38,7 +38,7 @@ id	name	name_in_spanish	flag	population	exports	government_type	energy_productio
 112	Belarus	Bielorrusia	🇧🇾	9501451	47870000000	República presidencialista	45.69	207629
 116	Cambodia	Camboya	🇰🇭	17063669	27753000000	Monarquía constitucional 	15.72	181040
 120	Cameroon	Camerún	🇨🇲	30966105	8641000000	República presidencialista	8.33	475440
-124	Canada	Canadá	🇨🇦	38794813	717677000000	Monarquía parlamentaria	636.79	15634410
+124	Canada	Canadá	🇨🇦	38794813	717677000000	Monarquía parlamentaria	636.79	9984670
 132	Cape Verde	Cabo Verde	🇨🇻	611014	951224000	República semipresidencialista	0.5	4030
 136	Cayman Islands	Islas Caimán	🇰🇾	66653	4054000000	null	0.7	264
 140	Central African Republic	República Centroafricana	🇨🇫	5650957	293074000	República presidencialista	0.14	622980
@@ -251,3 +251,4 @@ id	name	name_in_spanish	flag	population	exports	government_type	energy_productio
 882	Samoa	Samoa	🇼🇸	208853	347190000	Monarquía parlamentaria	0.15	2840
 887	Yemen	Yemen	🇾🇪	32140443	384500000	Gobierno provisional	3.07	527970
 894	Zambia	Zambia	🇿🇲	20799116	12444000000	República presidencialista	19.46	752610
+
