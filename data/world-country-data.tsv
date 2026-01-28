@@ -1,254 +1,253 @@
 id	name	name_in_spanish	flag	population	exports	government_type	energy_production	surface_area
--1	Northern Cyprus	Chipre del Norte	🇨🇾	0	0	null		
--2	Kosovo	Kosovo	🇽🇰	0	0	null		
--3	Somaliland	Somalilandia	🇸🇴	0	0	null		
-4	Afghanistan	Afganistán	🇦🇫	40121552	1476000000	Emirato unitario	0.97	652870
-8	Albania	Albania	🇦🇱	3107100	9178000000	República parlamentaria	9.01	28750
-10	Antarctica	Antártica	🇦🇶	0	0	null	0	0
-12	Algeria	Argelia	🇩🇿	47022473	58816000000	República semipresidencialista	96.3	2381740
-16	American Samoa	Samoa Americana	🇦🇸	43895	409000000	null	0.17	2840
-20	Andorra	Andorra	🇦🇩	85370	2736000000	Monarquía parlamentaria	0	470
+4	Afghanistan	Afganistán	🇦🇫	40121552	1476000000	Emirato unitario	0.97	652230
+248	Åland Islands	Åland	🇦🇽	0	0	null	0	1553
+8	Albania	Albania	🇦🇱	3107100	9178000000	República parlamentaria	9.01	27400
+12	Algeria	Argelia	🇩🇿	47022473	58816000000	República semipresidencialista	96.3	2381741
+16	American Samoa	Samoa Americana	🇦🇸	43895	409000000	null	0.17	199
+20	Andorra	Andorra	🇦🇩	85370	2736000000	Monarquía parlamentaria	0	468
 24	Angola	Angola	🇦🇴	37202061	36961000000	República presidencialista	17.94	1246700
-28	Antigua and Barbuda	Antigua y Barbuda	🇦🇬	102634	1217000000	Monarquía constitucional	0.36	440
-31	Azerbaijan	Azerbaiyán	🇦🇿	10650239	35487000000	República semipresidencialista	28.02	86600
-32	Argentina	Argentina	🇦🇷	46994384	83359000000	República presidencialista	152.51	2780400
-36	Australia	Australia	🇦🇺	26768598	447508000000	Monarquía constitucional	281.64	7741220
-40	Austria	Austria	🇦🇹	8967982	306466000000	República parlamentaria	78.77	83879
-44	Bahamas	Bahamas	🇧🇸	410862	4744000000	Monarquía constitucional	2.05	13880
-48	Bahrain	Baréin	🇧🇭	1566888	40344000000	Monarquía constitucional	36.17	800
-50	Bangladesh	Bangladés	🇧🇩	168697184	58885000000	República parlamentaria	113.86	147570
-51	Armenia	Armenia	🇦🇲	2976765	14130000000	República parlamentaria	8.89	29740
-52	Barbados	Barbados	🇧🇧	304139	2228000000	República parlamentaria	1.1	430
-56	Belgium	Bélgica	🇧🇪	11977634	535174000000	Monarquía constitucional	76.03	30689
-60	Bermuda	Bermudas	🇧🇲	72800	1136000000	null	0.64	4290
-64	Bhutan	Bután	🇧🇹	884546	815050000	Monarquía constitucional	11.16	38390
-68	Bolivia, Plurinational State of	Bolivia	🇧🇴	12311974	11975000000	República presidencialista	12.35	1098580
-70	Bosnia and Herzegovina	Bosnia y Herzegovina	🇧🇦	3798671	11942000000	República parlamentaria	15.16	51210
-72	Botswana	Botsuana	🇧🇼	2450668	8900000000	República parlamentaria mixta	2.59	581730
-74	Bouvet Island	Isla Bouvet	🇧🇻	0	0	null	0	0
-76	Brazil	Brasil	🇧🇷	220051512	389626000000	República presidencialista	745.72	8510420
-84	Belize	Belice	🇧🇿	415789	1462000000	Monarquía constitucional 	0.45	22966
-86	British Indian Ocean Territory	Territorio Británico del Océano Índico	🇮🇴	0	0	null	0	0
-90	Solomon Islands	Islas Salomón	🇸🇧	726799	546025000	Monarquía constitucional	0.11	28900
-92	Virgin Islands, British	Islas Vírgenes Británicas	🇻🇬	104377	23000000	null	0.17	0
-96	Brunei Darussalam	Brunéi	🇧🇳	491900	14411000000	Monarquía absoluta	5.59	5770
-100	Bulgaria	Bulgaria	🇧🇬	6782659	62118000000	República parlamentaria	38.33	110996.758
-104	Myanmar	Birmania	🇲🇲	57527139	20400000000	Junta militar	24.68	676590
-108	Burundi	Burundi	🇧🇮	13590102	285105000	República presidencialista	0.39	27830
-112	Belarus	Bielorrusia	🇧🇾	9501451	47870000000	República presidencialista	45.69	207629
-116	Cambodia	Camboya	🇰🇭	17063669	27753000000	Monarquía constitucional 	15.72	181040
-120	Cameroon	Camerún	🇨🇲	30966105	8641000000	República presidencialista	8.33	475440
-124	Canada	Canadá	🇨🇦	38794813	717677000000	Monarquía parlamentaria	636.79	9984670
-132	Cape Verde	Cabo Verde	🇨🇻	611014	951224000	República semipresidencialista	0.5	4030
+660	Anguilla	Anguila	🇦🇮	19416	7900000	null	0	91
+10	Antarctica	Antártica	🇦🇶	0	0	null	0	14200000
+28	Antigua and Barbuda	Antigua y Barbuda	🇦🇬	102634	1217000000	Monarquía constitucional	0.36	442
+32	Argentina	Argentina	🇦🇷	46994384	83359000000	República presidencialista	152.51	2736690
+51	Armenia	Armenia	🇦🇲	2976765	14130000000	República parlamentaria	8.89	28470
+533	Aruba	Aruba	🇦🇼	125063	2853000000	null	1	180
+36	Australia	Australia	🇦🇺	26768598	447508000000	Monarquía constitucional	281.64	7682300
+40	Austria	Austria	🇦🇹	8967982	306466000000	República parlamentaria	78.77	82520
+31	Azerbaijan	Azerbaiyán	🇦🇿	10650239	35487000000	República semipresidencialista	28.02	82650
+44	Bahamas	Bahamas	🇧🇸	410862	4744000000	Monarquía constitucional	2.05	10010
+48	Bahrain	Baréin	🇧🇭	1566888	40344000000	Monarquía constitucional	36.17	778
+50	Bangladesh	Bangladés	🇧🇩	168697184	58885000000	República parlamentaria	113.86	130170
+52	Barbados	Barbados	🇧🇧	304139	2228000000	República parlamentaria	1.1	431
+112	Belarus	Bielorrusia	🇧🇾	9501451	47870000000	República presidencialista	45.69	202900
+56	Belgium	Bélgica	🇧🇪	11977634	535174000000	Monarquía constitucional	76.03	30280
+84	Belize	Belice	🇧🇿	415789	1462000000	Monarquía constitucional 	0.45	22810
+204	Benin	Benín	🇧🇯	14697052	4154000000	República presidencialista	1	112760
+60	Bermuda	Bermudas	🇧🇲	72800	1136000000	null	0.64	54
+64	Bhutan	Bután	🇧🇹	884546	815050000	Monarquía constitucional	11.16	38140
+68	Bolivia, Plurinational State of	Bolivia	🇧🇴	12311974	11975000000	República presidencialista	12.35	1083300
+535	Bonaire, Sint Eustatius and Saba	Caribe Neerlandés	🇧🇶	0	0	null	0	288
+70	Bosnia and Herzegovina	Bosnia y Herzegovina	🇧🇦	3798671	11942000000	República parlamentaria	15.16	51200
+72	Botswana	Botsuana	🇧🇼	2450668	8900000000	República parlamentaria mixta	2.59	566730
+74	Bouvet Island	Isla Bouvet	🇧🇻	0	0	null	0	49
+76	Brazil	Brasil	🇧🇷	220051512	389626000000	República presidencialista	745.72	8460415
+86	British Indian Ocean Territory	Territorio Británico del Océano Índico	🇮🇴	0	0	null	0	60
+96	Brunei Darussalam	Brunéi	🇧🇳	491900	14411000000	Monarquía absoluta	5.59	5270
+100	Bulgaria	Bulgaria	🇧🇬	6782659	62118000000	República parlamentaria	38.33	108489
+854	Burkina Faso	Burkina Faso	🇧🇫	23042199	5814000000	Junta militar	1.73	273800
+108	Burundi	Burundi	🇧🇮	13590102	285105000	República presidencialista	0.39	25680
+116	Cambodia	Camboya	🇰🇭	17063669	27753000000	Monarquía constitucional 	15.72	176520
+120	Cameroon	Camerún	🇨🇲	30966105	8641000000	República presidencialista	8.33	472710
+124	Canada	Canadá	🇨🇦	38794813	717677000000	Monarquía parlamentaria	636.79	9093507
+132	Cape Verde	Cabo Verde	🇨🇻	611014	951224000	República semipresidencialista	0.5	4033
 136	Cayman Islands	Islas Caimán	🇰🇾	66653	4054000000	null	0.7	264
-140	Central African Republic	República Centroafricana	🇨🇫	5650957	293074000	República presidencialista	0.14	622980
-144	Sri Lanka	Sri Lanka	🇱🇰	21982608	17327000000	República semipresidencialista	17.38	65610
-148	Chad	Chad	🇹🇩	19093595	6503000000	República semipresidencialista	0.39	1284000
-152	Chile	Chile	🇨🇱	18664652	104349000000	República presidencialista	89.26	757244.88
-156	China	China	🇨🇳	1416043270	3511000000000	Unipartidista	10086.88	9562910
-158	Taiwan, Province of China	Taiwán	🇹🇼	23595274	388490000000	null	288.56	0
-162	Christmas Island	Isla de Navidad	🇨🇽	1692	0	null	0	0
-166	Cocos (Keeling) Islands	Islas Cocos	🇨🇨	593	0	null	0	0
-170	Colombia	Colombia	🇨🇴	49588357	67762000000	República presidencialista	87.51	1140619.1
+140	Central African Republic	República Centroafricana	🇨🇫	5650957	293074000	República presidencialista	0.14	622984
+148	Chad	Chad	🇹🇩	19093595	6503000000	República semipresidencialista	0.39	1259200
+152	Chile	Chile	🇨🇱	18664652	104349000000	República presidencialista	89.26	743812
+156	China	China	🇨🇳	1416043270	3511000000000	Unipartidista	10086.88	9326410
+162	Christmas Island	Isla de Navidad	🇨🇽	1692	0	null	0	135
+166	Cocos (Keeling) Islands	Islas Cocos	🇨🇨	593	0	null	0	14
+170	Colombia	Colombia	🇨🇴	49588357	67762000000	República presidencialista	87.51	1038700
 174	Comoros	Comoras	🇰🇲	900141	165347000	República presidencialista	0.14	1861
-175	Mayotte	Mayotte	🇾🇹	0	0	null	0	0
-178	Congo	República del Congo	🇨🇬	6097665	7752000000	República presidencialista	5.17	342000
-180	Congo, the Democratic Republic of the	República Democrática del Congo	🇨🇩	115403027	22354000000	República semipresidencialista	15.9	2344860
-184	Cook Islands	Islas Cook	🇨🇰	7761	31400000	Monarquía constitucional	0.04	0
-188	Costa Rica	Costa Rica	🇨🇷	5265575	33699000000	República presidencialista	12.38	51100
-191	Croatia	Croacia	🇭🇷	4150116	44969000000	República parlamentaria	15.12	88070
-192	Cuba	Cuba	🇨🇺	10966038	8769000000	Unipartidista	15.29	109880
-196	Cyprus	Chipre	🇨🇾	1320525	28808000000	República presidencialista	4.55	9250
-203	Czech Republic	República Checa	🇨🇿	10837890	236688000000	República parlamentaria	72.82	78871.43
-204	Benin	Benín	🇧🇯	14697052	4154000000	República presidencialista	1	114760
-208	Denmark	Dinamarca	🇩🇰	5973136	278917000000	Monarquía parlamentaria	35.18	42920
+178	Congo	República del Congo	🇨🇬	6097665	7752000000	República presidencialista	5.17	341500
+180	Congo, the Democratic Republic of the	República Democrática del Congo	🇨🇩	115403027	22354000000	República semipresidencialista	15.9	2267048
+184	Cook Islands	Islas Cook	🇨🇰	7761	31400000	Monarquía constitucional	0.04	236
+188	Costa Rica	Costa Rica	🇨🇷	5265575	33699000000	República presidencialista	12.38	51140
+384	Côte d'Ivoire	Costa de Marfil	🇨🇮	29981758	17211000000	República presidencialista	11.13	318000
+191	Croatia	Croacia	🇭🇷	4150116	44969000000	República parlamentaria	15.12	55974
+192	Cuba	Cuba	🇨🇺	10966038	8769000000	Unipartidista	15.29	109884
+531	Curaçao	Curazao	🇨🇼	153289	2049000000	null	0	444
+196	Cyprus	Chipre	🇨🇾	1320525	28808000000	República presidencialista	4.55	9241
+203	Czech Republic	República Checa	🇨🇿	10837890	236688000000	República parlamentaria	72.82	77187
+208	Denmark	Dinamarca	🇩🇰	5973136	278917000000	Monarquía parlamentaria	35.18	42434
+262	Djibouti	Yibuti	🇩🇯	994974	5674000000	República presidencialista	0.2	23180
 212	Dominica	Dominica	🇩🇲	74661	185062000	República parlamentaria	0.15	750
-214	Dominican Republic	República Dominicana	🇩🇴	10815857	25843000000	República presidencialista	25.94	146839.46
-218	Ecuador	Ecuador	🇪🇨	18309984	34640000000	República presidencialista	33	256370
-222	El Salvador	El Salvador	🇸🇻	6628702	10629000000	República presidencialista	7.05	21040
-226	Equatorial Guinea	Guinea Ecuatorial	🇬🇶	1795834	6231000000	República presidencialista	1.57	28050
-231	Ethiopia	Etiopía	🇪🇹	118550298	10865000000	República parlamentaria	18.26	1136239.7
-232	Eritrea	Eritrea	🇪🇷	6343956	624300000	Unipartidista	0.44	121765.8
-233	Estonia	Estonia	🇪🇪	1193791	31939000000	República parlamentaria	6.2	45340
-234	Faroe Islands	Islas Feroe	🇫🇴	52933	2219000000	null	0.48	12960
-238	Falkland Islands (Malvinas)	Islas Malvinas	🇫🇰	3662	257300000	null	0.01	0
-239	South Georgia and the South Sandwich Islands	Islas Georgias del Sur y Sandwich del Sur	🇬🇸	0	0	null		0
-242	Fiji	Fiyi	🇫🇯	951611	2376000000	República parlamentaria	1.15	18270
-246	Finland	Finlandia	🇫🇮	5626414	122953000000	República parlamentaria	82.17	338480
-248	Åland Islands	Åland	🇦🇽	0	0	null	0	0
-250	France	Francia	🇫🇷	68374591	1052000000000	República semipresidencialista	560.11	606410
-254	French Guiana	Guayana Francesa	🇬🇫	0	0	null	0.98	0
-258	French Polynesia	Polinesia Francesa	🇵🇫	0	162000000	null	0.71	3471
-260	French Southern Territories	Territorios Australes Franceses	🇹🇫	0	0	null	0	0
-262	Djibouti	Yibuti	🇩🇯	994974	5674000000	República presidencialista	0.2	23200
-266	Gabon	Gabón	🇬🇦	2455105	12935000000	República presidencialista	3.19	267670
-268	Georgia	Georgia	🇬🇪	4900961	15161000000	República parlamentaria	14.26	69700
-270	Gambia	Gambia	🇬🇲	2523327	267377000	República presidencialista	0.51	11300
-275	Palestinian Territory, Occupied	Palestina	🇵🇸	0	0	República semipresidencialista	1.02	0
-276	Germany	Alemania	🇩🇪	84119100	2104000000000	República parlamentaria	493	357680
-288	Ghana	Ghana	🇬🇭	34589092	25744000000	República presidencialista	24.29	238539
-292	Gibraltar	Gibraltar	🇬🇮	29683	202300000	null	0.22	10
-296	Kiribati	Kiribati	🇰🇮	116545	19677000	República parlamentaria mixta	0.04	810
-300	Greece	Grecia	🇬🇷	10461091	106650000000	República parlamentaria	56.98	131960
-304	Greenland	Groenlandia	🇬🇱	57751	1147000000	null	0.54	410450
+214	Dominican Republic	República Dominicana	🇩🇴	10815857	25843000000	República presidencialista	25.94	48320
+218	Ecuador	Ecuador	🇪🇨	18309984	34640000000	República presidencialista	33	276841
+818	Egypt	Egipto	🇪🇬	111247248	76295000000	República semipresidencialista	237.39	995450
+222	El Salvador	El Salvador	🇸🇻	6628702	10629000000	República presidencialista	7.05	20720
+226	Equatorial Guinea	Guinea Ecuatorial	🇬🇶	1795834	6231000000	República presidencialista	1.57	28051
+232	Eritrea	Eritrea	🇪🇷	6343956	624300000	Unipartidista	0.44	101000
+233	Estonia	Estonia	🇪🇪	1193791	31939000000	República parlamentaria	6.2	42388
+231	Ethiopia	Etiopía	🇪🇹	118550298	10865000000	República parlamentaria	18.26	1096570
+238	Falkland Islands (Malvinas)	Islas Malvinas	🇫🇰	3662	257300000	null	0.01	12173
+234	Faroe Islands	Islas Feroe	🇫🇴	52933	2219000000	null	0.48	1393
+242	Fiji	Fiyi	🇫🇯	951611	2376000000	República parlamentaria	1.15	18272
+246	Finland	Finlandia	🇫🇮	5626414	122953000000	República parlamentaria	82.17	303815
+250	France	Francia	🇫🇷	68374591	1052000000000	República semipresidencialista	560.11	640427
+254	French Guiana	Guayana Francesa	🇬🇫	0	0	null	0.98	
+258	French Polynesia	Polinesia Francesa	🇵🇫	0	162000000	null	0.71	3827
+260	French Southern Territories	Territorios Australes Franceses	🇹🇫	0	0	null	0	7668
+266	Gabon	Gabón	🇬🇦	2455105	12935000000	República presidencialista	3.19	257670
+270	Gambia	Gambia	🇬🇲	2523327	267377000	República presidencialista	0.51	10120
+268	Georgia	Georgia	🇬🇪	4900961	15161000000	República parlamentaria	14.26	69490
+276	Germany	Alemania	🇩🇪	84119100	2104000000000	República parlamentaria	493	349390
+288	Ghana	Ghana	🇬🇭	34589092	25744000000	República presidencialista	24.29	227533
+292	Gibraltar	Gibraltar	🇬🇮	29683	202300000	null	0.22	6.8
+300	Greece	Grecia	🇬🇷	10461091	106650000000	República parlamentaria	56.98	128900
+304	Greenland	Groenlandia	🇬🇱	57751	1147000000	null	0.54	2166086
 308	Grenada	Granada	🇬🇩	114621	899153000	Monarquía parlamentaria	0.24	340
 312	Guadeloupe	Guadalupe	🇬🇵	0	0	null	1.64	0
 316	Guam	Guam	🇬🇺	169532	186000000	null	1.8	540
-320	Guatemala	Guatemala	🇬🇹	18255216	17308000000	República presidencialista	13.46	108890
-324	Guinea	Guinea	🇬🇳	13986179	8898000000	Junta militar	4.05	245860
-328	Guyana	Guyana	🇬🇾	794099	11536000000	República semipresidencialista	1.34	214970
-332	Haiti	Haití	🇭🇹	11753943	1355000000	República semipresidencialista	1.01	27750
-334	Heard Island and McDonald Islands	Islas Heard y McDonald	🇭🇲	0	0	null	0	0
-336	Holy See (Vatican City State)	Ciudad del Vaticano	🇻🇦	1000	0	null	0	0
-340	Honduras	Honduras	🇭🇳	9529188	9701000000	República presidencialista	11.71	112490
-344	Hong Kong	Hong Kong	🇭🇰	7297821	673305000000	null	37.64	1110
-348	Hungary	Hungría	🇭🇺	9855745	172484000000	República parlamentaria	37.98	93030
-352	Iceland	Islandia	🇮🇸	364036	13490000000	República parlamentaria	20.12	103000
-356	India	India	🇮🇳	1409128296	773224000000	República parlamentaria	2030.2	3287260
-360	Indonesia	Indonesia	🇮🇩	281562465	292790000000	República presidencialista	371.54	1916906.77
-364	Iran, Islamic Republic of	Irán	🇮🇷	88386937	110882000000	República presidencialista	395.79	1745150
-368	Iraq	Irak	🇮🇶	42083436	127079000000	República parlamentaria	150.29	435050
-372	Ireland	Irlanda	🇮🇪	5233461	731814000000	República parlamentaria	30.96	70280
-376	Israel	Israel	🇮🇱	9402617	156165000000	República parlamentaria	74.41	22070
-380	Italy	Italia	🇮🇹	60964931	793589000000	República parlamentaria	267.51	302070
-384	Côte d'Ivoire	Costa de Marfil	🇨🇮	29981758	17211000000	República presidencialista	11.13	322460
-388	Jamaica	Jamaica	🇯🇲	2823713	6424000000	Monarquía constitucional	4.49	10990
-392	Japan	Japón	🇯🇵	123201945	920737000000	Monarquía parlamentaria	1016.39	377969.27
-398	Kazakhstan	Kazajistán	🇰🇿	20260006	90167000000	República presidencialista	118.51	2724902
-400	Jordan	Jordania	🇯🇴	11174024	20335000000	Monarquía constitucional	22.57	89318
-404	Kenya	Kenia	🇰🇪	58246378	13859000000	República presidencialista	12.85	591969
-408	Korea, Democratic People's Republic of	Corea del Norte	🇰🇵	26298666	222000000	Unipartidista	26.55	120540
-410	Korea, Republic of	Corea del Sur	🇰🇷	52081799	769534000000	República presidencialista	625.38	100450
-414	Kuwait	Kuwait	🇰🇼	3138355	95476000000	Monarquía constitucional	87.66	17820
-417	Kyrgyzstan	Kirguistán	🇰🇬	6172101	3628000000	República presidencialista	16.23	199950
-418	Lao People's Democratic Republic	Laos	🇱🇦	7953556	8604000000	Unipartidista	52.3	236800
-422	Lebanon	Líbano	🇱🇧	5364482	11770000000	República parlamentaria	4.52	10450
-426	Lesotho	Lesoto	🇱🇸	2227548	886278000	Monarquía parlamentaria	0.48	30360
-428	Latvia	Letonia	🇱🇻	1801246	27947000000	República parlamentaria	6.32	64590
-430	Liberia	Liberia	🇱🇷	5437249	1220000000	República presidencialista	0.39	111370
+320	Guatemala	Guatemala	🇬🇹	18255216	17308000000	República presidencialista	13.46	107160
+831	Guernsey	Guernsey	🇬🇬	67787	0	null	0	78
+324	Guinea	Guinea	🇬🇳	13986179	8898000000	Junta militar	4.05	245717
+624	Guinea-Bissau	Guinea-Bisáu	🇬🇼	2132325	280065000	Junta militar	0.08	28120
+328	Guyana	Guyana	🇬🇾	794099	11536000000	República semipresidencialista	1.34	196850
+332	Haiti	Haití	🇭🇹	11753943	1355000000	República semipresidencialista	1.01	27560
+334	Heard Island and McDonald Islands	Islas Heard y McDonald	🇭🇲	0	0	null	0	412
+336	Holy See (Vatican City State)	Ciudad del Vaticano	🇻🇦	1000	0	null	0	0.49
+340	Honduras	Honduras	🇭🇳	9529188	9701000000	República presidencialista	11.71	111890
+344	Hong Kong	Hong Kong	🇭🇰	7297821	673305000000	null	37.64	1050
+348	Hungary	Hungría	🇭🇺	9855745	172484000000	República parlamentaria	37.98	91260
+352	Iceland	Islandia	🇮🇸	364036	13490000000	República parlamentaria	20.12	100830
+356	India	India	🇮🇳	1409128296	773224000000	República parlamentaria	2030.2	2973190
+360	Indonesia	Indonesia	🇮🇩	281562465	292790000000	República presidencialista	371.54	1811569
+364	Iran, Islamic Republic of	Irán	🇮🇷	88386937	110882000000	República presidencialista	395.79	1531595
+368	Iraq	Irak	🇮🇶	42083436	127079000000	República parlamentaria	150.29	437367
+372	Ireland	Irlanda	🇮🇪	5233461	731814000000	República parlamentaria	30.96	68883
+833	Isle of Man	Isla de Man	🇮🇲	92269	0	null	0	570
+376	Israel	Israel	🇮🇱	9402617	156165000000	República parlamentaria	74.41	21497
+380	Italy	Italia	🇮🇹	60964931	793589000000	República parlamentaria	267.51	295717
+388	Jamaica	Jamaica	🇯🇲	2823713	6424000000	Monarquía constitucional	4.49	10830
+392	Japan	Japón	🇯🇵	123201945	920737000000	Monarquía parlamentaria	1016.39	364485
+832	Jersey	Jersey	🇯🇪	103387	0	null	0	116
+400	Jordan	Jordania	🇯🇴	11174024	20335000000	Monarquía constitucional	22.57	88794
+398	Kazakhstan	Kazajistán	🇰🇿	20260006	90167000000	República presidencialista	118.51	2699700
+404	Kenya	Kenia	🇰🇪	58246378	13859000000	República presidencialista	12.85	569140
+296	Kiribati	Kiribati	🇰🇮	116545	19677000	República parlamentaria mixta	0.04	811
+408	Korea, Democratic People's Republic of	Corea del Norte	🇰🇵	26298666	222000000	Unipartidista	26.55	120410
+410	Korea, Republic of	Corea del Sur	🇰🇷	52081799	769534000000	República presidencialista	625.38	97600
+-2	Kosovo	Kosovo	🇽🇰	0	0	null		10887
+414	Kuwait	Kuwait	🇰🇼	3138355	95476000000	Monarquía constitucional	87.66	17818
+417	Kyrgyzstan	Kirguistán	🇰🇬	6172101	3628000000	República presidencialista	16.23	191800
+418	Lao People's Democratic Republic	Laos	🇱🇦	7953556	8604000000	Unipartidista	52.3	230800
+428	Latvia	Letonia	🇱🇻	1801246	27947000000	República parlamentaria	6.32	62230
+422	Lebanon	Líbano	🇱🇧	5364482	11770000000	República parlamentaria	4.52	10230
+426	Lesotho	Lesoto	🇱🇸	2227548	886278000	Monarquía parlamentaria	0.48	30355
+430	Liberia	Liberia	🇱🇷	5437249	1220000000	República presidencialista	0.39	96320
 434	Libya	Libia	🇱🇾	7361263	32380000000	Gobierno provisional	35.11	1759540
 438	Liechtenstein	Liechtenstein	🇱🇮	40272	3217000000	Monarquía constitucional		160
-440	Lithuania	Lituania	🇱🇹	2628186	61101000000	República semipresidencialista	7.3	65290
-442	Luxembourg	Luxemburgo	🇱🇺	671254	176133000000	Monarquía parlamentaria	1.5	2590
+440	Lithuania	Lituania	🇱🇹	2628186	61101000000	República semipresidencialista	7.3	62610
+442	Luxembourg	Luxemburgo	🇱🇺	671254	176133000000	Monarquía parlamentaria	1.5	2574
 446	Macao	Macao	🇲🇴	644426	20985000000	null	0.49	33
-450	Madagascar	Madagascar	🇲🇬	29452714	4689000000	Junta militar	2.64	587295
-454	Malawi	Malaui	🇲🇼	21763309	1487000000	República presidencialista	1.83	118480
-458	Malaysia	Malasia	🇲🇾	34564810	312857000000	Monarquía parlamentaria	198.22	330411
+807	Macedonia, the former Yugoslav Republic of	Macedonia del Norte	🇲🇰	2135622	10748000000	República parlamentaria	5.8	25220
+450	Madagascar	Madagascar	🇲🇬	29452714	4689000000	Junta militar	2.64	581540
+454	Malawi	Malaui	🇲🇼	21763309	1487000000	República presidencialista	1.83	94080
+458	Malaysia	Malasia	🇲🇾	34564810	312857000000	Monarquía parlamentaria	198.22	329432
 462	Maldives	Maldivas	🇲🇻	388858	5096000000	República presidencialista	0.85	300
-466	Mali	Malí	🇲🇱	21990607	5855000000	Junta militar	4.36	1240190
-470	Malta	Malta	🇲🇹	469730	25417000000	República parlamentaria	2.19	320
+466	Mali	Malí	🇲🇱	21990607	5855000000	Junta militar	4.36	1220190
+470	Malta	Malta	🇲🇹	469730	25417000000	República parlamentaria	2.19	315
+584	Marshall Islands	Islas Marshall	🇲🇭	82011	130016000	República parlamentaria mixta	0	180
 474	Martinique	Martinica	🇲🇶	0	0	null	1.49	0
 478	Mauritania	Mauritania	🇲🇷	4328040	4132000000	República presidencialista	1.64	1030700
-480	Mauritius	Mauricio	🇲🇺	1310504	5499000000	República parlamentaria	3.27	2010
-484	Mexico	México	🇲🇽	130739927	649312000000	República presidencialista	355.18	1957193.9
-492	Monaco	Mónaco	🇲🇨	31813	964600000	Monarquía constitucional	0	74.9
-496	Mongolia	Mongolia	🇲🇳	3281676	15501000000	República semipresidencialista	8.38	1564115.75
-498	Moldova, Republic of	Moldavia	🇲🇩	3599528	5865000000	República parlamentaria	5.21	33850
-499	Montenegro	Montenegro	🇲🇪	599849	3775000000	República parlamentaria	3.7	13888
-500	Montserrat	Montserrat	🇲🇸	5468	11900000	null	0.01	0
-504	Morocco	Marruecos	🇲🇦	37387585	58556000000	Monarquía constitucional	43.88	446550
-508	Mozambique	Mozambique	🇲🇿	33350954	9289000000	República presidencialista	19.56	799380
-512	Oman	Omán	🇴🇲	3901992	69701000000	Monarquía absoluta	43.35	309500
-516	Namibia	Namibia	🇳🇦	2803660	5641000000	República semipresidencialista	1.89	824290
-520	Nauru	Nauru	🇳🇷	9892	187000000	República parlamentaria mixta	0.04	20
-524	Nepal	Nepal	🇳🇵	31122387	2999000000	República parlamentaria	10.7	147180
-528	Netherlands	Países Bajos	🇳🇱	17772378	949983000000	Monarquía constitucional	122.51	41540
-531	Curaçao	Curazao	🇨🇼	153289	2049000000	null	0	444
-533	Aruba	Aruba	🇦🇼	125063	2853000000	null	1	180
-534	Sint Maarten (Dutch part)	Sint Maarten	🇸🇽	32996	1372000000	null	0	34
-535	Bonaire, Sint Eustatius and Saba	Caribe Neerlandés	🇧🇶	0	0	null	0	0
-540	New Caledonia	Nueva Caledonia	🇳🇨	304167	1920000000	null	3.09	18580
-548	Vanuatu	Vanuatu	🇻🇺	318007	152087000	República parlamentaria	0.08	12190
-554	New Zealand	Nueva Zelanda	🇳🇿	5161211	59043000000	Monarquía parlamentaria	44.46	267710
-558	Nicaragua	Nicaragua	🇳🇮	6676948	8250000000	República presidencialista	4.37	130370
-562	Niger	Níger	🇳🇪	26342784	1376000000	Junta militar	0.8	1267000
-566	Nigeria	Nigeria	🇳🇬	236747130	60261000000	República presidencialista	40.13	923770
-570	Niue	Niue	🇳🇺	2000	5680000	Monarquía constitucional	0	0
-574	Norfolk Island	Isla Norfolk	🇳🇫	1748	0	null	0	0
-578	Norway	Noruega	🇳🇴	5509733	228625000000	Monarquía parlamentaria	156.12	624500
-580	Northern Mariana Islands	Islas Marianas del Norte	🇲🇵	51118	128000000	null	0	460
-581	United States Minor Outlying Islands	Las islas Ultramarinas Menores de los Estados Unidos	🇺🇲	0	0	null	0	0
+480	Mauritius	Mauricio	🇲🇺	1310504	5499000000	República parlamentaria	3.27	2086
+175	Mayotte	Mayotte	🇾🇹	0	0	null	0	0
+484	Mexico	México	🇲🇽	130739927	649312000000	República presidencialista	355.18	1943950
 583	Micronesia, Federated States of	Micronesia	🇫🇲	99603	179000000	República parlamentaria mixta	0	700
-584	Marshall Islands	Islas Marshall	🇲🇭	82011	130016000	República parlamentaria mixta	0	180
-585	Palau	Palaos	🇵🇼	21864	24480000	República presidencialista	0	460
-586	Pakistan	Pakistán	🇵🇰	252363571	36442000000	República parlamentaria	182.1	796100
-591	Panama	Panamá	🇵🇦	4470241	36569000000	República presidencialista	12.87	75320
-598	Papua New Guinea	Papúa Nueva Guinea	🇵🇬	10046233	11625000000	Monarquía parlamentaria	4.73	462840
-600	Paraguay	Paraguay	🇵🇾	7522549	18711000000	República presidencialista	44.24	406752
-604	Peru	Perú	🇵🇪	32600249	73326000000	República semipresidencialista	63.85	1285215.6
-608	Philippines	Filipinas	🇵🇭	118277063	103601000000	República presidencialista	125.86	300000
-612	Pitcairn	Islas Pitcairn	🇵🇳	50	0	null	0	0
-616	Poland	Polonia	🇵🇱	38746310	469264000000	República semipresidencialista	171.05	313930
-620	Portugal	Portugal	🇵🇹	10207177	136589000000	República semipresidencialista	47.32	92230
-624	Guinea-Bissau	Guinea-Bisáu	🇬🇼	2132325	280065000	Junta militar	0.08	36130
-626	Timor-Leste	Timor Oriental	🇹🇱	1506909	701808000	República semipresidencialista	0.51	14870
-630	Puerto Rico	Puerto Rico	🇵🇷	3019450	59787000000	null	18.72	8870
-634	Qatar	Catar	🇶🇦	2552088	128726000000	Monarquía constitucional	58.64	11490
+498	Moldova, Republic of	Moldavia	🇲🇩	3599528	5865000000	República parlamentaria	5.21	32970
+492	Monaco	Mónaco	🇲🇨	31813	964600000	Monarquía constitucional	0	2
+496	Mongolia	Mongolia	🇲🇳	3281676	15501000000	República semipresidencialista	8.38	1557507
+499	Montenegro	Montenegro	🇲🇪	599849	3775000000	República parlamentaria	3.7	13452
+500	Montserrat	Montserrat	🇲🇸	5468	11900000	null	0.01	100
+504	Morocco	Marruecos	🇲🇦	37387585	58556000000	Monarquía constitucional	43.88	446300
+508	Mozambique	Mozambique	🇲🇿	33350954	9289000000	República presidencialista	19.56	786380
+104	Myanmar	Birmania	🇲🇲	57527139	20400000000	Junta militar	24.68	653508
+516	Namibia	Namibia	🇳🇦	2803660	5641000000	República semipresidencialista	1.89	823290
+520	Nauru	Nauru	🇳🇷	9892	187000000	República parlamentaria mixta	0.04	20
+524	Nepal	Nepal	🇳🇵	31122387	2999000000	República parlamentaria	10.7	143350
+528	Netherlands	Países Bajos	🇳🇱	17772378	949983000000	Monarquía constitucional	122.51	33893
+540	New Caledonia	Nueva Caledonia	🇳🇨	304167	1920000000	null	3.09	18275
+554	New Zealand	Nueva Zelanda	🇳🇿	5161211	59043000000	Monarquía parlamentaria	44.46	264537
+558	Nicaragua	Nicaragua	🇳🇮	6676948	8250000000	República presidencialista	4.37	120340
+562	Niger	Níger	🇳🇪	26342784	1376000000	Junta militar	0.8	1266700
+566	Nigeria	Nigeria	🇳🇬	236747130	60261000000	República presidencialista	40.13	910770
+570	Niue	Niue	🇳🇺	2000	5680000	Monarquía constitucional	0	260
+574	Norfolk Island	Isla Norfolk	🇳🇫	1748	0	null	0	36
+-1	Northern Cyprus	Chipre del Norte	🇨🇾	0	0	null		0
+580	Northern Mariana Islands	Islas Marianas del Norte	🇲🇵	51118	128000000	null	0	457
+578	Norway	Noruega	🇳🇴	5509733	228625000000	Monarquía parlamentaria	156.12	366704
+512	Oman	Omán	🇴🇲	3901992	69701000000	Monarquía absoluta	43.35	309500
+586	Pakistan	Pakistán	🇵🇰	252363571	36442000000	República parlamentaria	182.1	857143
+585	Palau	Palaos	🇵🇼	21864	24480000	República presidencialista	0	459
+275	Palestinian Territory, Occupied	Palestina	🇵🇸	0	0	República semipresidencialista	1.02	6025
+591	Panama	Panamá	🇵🇦	4470241	36569000000	República presidencialista	12.87	74180
+598	Papua New Guinea	Papúa Nueva Guinea	🇵🇬	10046233	11625000000	Monarquía parlamentaria	4.73	452860
+600	Paraguay	Paraguay	🇵🇾	7522549	18711000000	República presidencialista	44.24	397300
+604	Peru	Perú	🇵🇪	32600249	73326000000	República semipresidencialista	63.85	1279996
+608	Philippines	Filipinas	🇵🇭	118277063	103601000000	República presidencialista	125.86	298170
+612	Pitcairn	Islas Pitcairn	🇵🇳	50	0	null	0	47
+616	Poland	Polonia	🇵🇱	38746310	469264000000	República semipresidencialista	171.05	304255
+620	Portugal	Portugal	🇵🇹	10207177	136589000000	República semipresidencialista	47.32	91606
+630	Puerto Rico	Puerto Rico	🇵🇷	3019450	59787000000	null	18.72	8868
+634	Qatar	Catar	🇶🇦	2552088	128726000000	Monarquía constitucional	58.64	11586
 638	Réunion	Reunión	🇷🇪	0	0	null	3.37	0
-642	Romania	Rumanía	🇷🇴	18148155	137337000000	República semipresidencialista	52.72	238400
-643	Russian Federation	Rusia	🇷🇺	140820810	465432000000	República semipresidencialista	1209.31	17125190
-646	Rwanda	Ruanda	🇷🇼	13623302	3509000000	República presidencialista	1.06	26338
-652	Saint Barthélemy	San Bartolomé	🇧🇱	7086	0	null	0	0
-654	Saint Helena, Ascension and Tristan da Cunha	Santa Elena	🇸🇭	7943	0	null	0.01	0
-659	Saint Kitts and Nevis	San Cristóbal y Nieves	🇰🇳	55133	577568000	Monarquía constitucional 	0.22	0
-660	Anguilla	Anguila	🇦🇮	19416	7900000	null	0	0
-662	Saint Lucia	Santa Lucía	🇱🇨	168038	1415000000	Monarquía parlamentaria	0.4	0
-663	Saint Martin (French part)	San Martín	🇲🇫	32996	0	null	0	0
-666	Saint Pierre and Miquelon	San Pedro y Miquelón	🇵🇲	5132	0	null	0.05	0
-670	Saint Vincent and the Grenadines	San Vicente y las Granadinas	🇻🇨	100647	347827000	Monarquía constitucional	0.15	0
-674	San Marino	San Marino	🇸🇲	35095	3420000000	República parlamentaria mixta	0	60
-678	Sao Tome and Principe	Santo Tomé y Príncipe	🇸🇹	223561	96977000	República semipresidencialista	0.09	960
+642	Romania	Rumanía	🇷🇴	18148155	137337000000	República semipresidencialista	52.72	230080
+643	Russian Federation	Rusia	🇷🇺	140820810	465432000000	República semipresidencialista	1209.31	16376870
+646	Rwanda	Ruanda	🇷🇼	13623302	3509000000	República presidencialista	1.06	24670
+652	Saint Barthélemy	San Bartolomé	🇧🇱	7086	0	null	0	20
+654	Saint Helena, Ascension and Tristan da Cunha	Santa Elena	🇸🇭	7943	0	null	0.01	394
+659	Saint Kitts and Nevis	San Cristóbal y Nieves	🇰🇳	55133	577568000	Monarquía constitucional 	0.22	261
+662	Saint Lucia	Santa Lucía	🇱🇨	168038	1415000000	Monarquía parlamentaria	0.4	610
+663	Saint Martin (French part)	San Martín	🇲🇫	32996	0	null	0	53
+666	Saint Pierre and Miquelon	San Pedro y Miquelón	🇵🇲	5132	0	null	0.05	230
+670	Saint Vincent and the Grenadines	San Vicente y las Granadinas	🇻🇨	100647	347827000	Monarquía constitucional	0.15	389
+882	Samoa	Samoa	🇼🇸	208853	347190000	Monarquía parlamentaria	0.15	2780
+674	San Marino	San Marino	🇸🇲	35095	3420000000	República parlamentaria mixta	0	61
+678	Sao Tome and Principe	Santo Tomé y Príncipe	🇸🇹	223561	96977000	República semipresidencialista	0.09	964
 682	Saudi Arabia	Arabia Saudita	🇸🇦	36544431	370974000000	Monarquía absoluta	454.64	2149690
-686	Senegal	Senegal	🇸🇳	18847519	6780000000	República semipresidencialista	8.05	196710
-688	Serbia	Serbia	🇷🇸	6652212	44343000000	República parlamentaria	37.46	84990
-690	Seychelles	Seychelles	🇸🇨	98187	2375000000	República presidencialista	0.63	460
-694	Sierra Leone	Sierra Leona	🇸🇱	9121049	1195000000	República presidencialista	0.21	72300
-702	Singapore	Singapur	🇸🇬	6028459	873989000000	República parlamentaria	59.61	728
-703	Slovakia	Eslovaquia	🇸🇰	5563649	121238000000	República parlamentaria	29.52	49030
-704	Viet Nam	Vietnam	🇻🇳	105758975	374265000000	Unipartidista	303.58	331338.31
-705	Slovenia	Eslovenia	🇸🇮	2097893	57489000000	República parlamentaria	16.71	20480
-706	Somalia	Somalia	🇸🇴	13017273	819000000	República parlamentaria	0.42	637660
-710	South Africa	Sudáfrica	🇿🇦	60442647	124731000000	República parlamentaria mixta	249.07	1219090
-716	Zimbabwe	Zimbabue	🇿🇼	17150352	7650000000	República presidencialista	8.31	390760
-724	Spain	España	🇪🇸	47280433	615830000000	Monarquía parlamentaria	281.65	505975.98
-728	South Sudan	Sudán del Sur	🇸🇸	12703714	5811000000	República presidencialista	0.59	646883
-729	Sudan	Sudán	🇸🇩	50467278	5908000000	Junta militar	16.75	1878000
-732	Western Sahara	Sahara Occidental	🇪🇭	0	0	null	0.09	0
-740	Suriname	Surinam	🇸🇷	646758	2534000000	República parlamentaria mixta	2.14	163820
-744	Svalbard and Jan Mayen	Svalbard y Jan Mayen	🇸🇯	2926	0	null	0	0
+686	Senegal	Senegal	🇸🇳	18847519	6780000000	República semipresidencialista	8.05	192530
+688	Serbia	Serbia	🇷🇸	6652212	44343000000	República parlamentaria	37.46	88499
+690	Seychelles	Seychelles	🇸🇨	98187	2375000000	República presidencialista	0.63	457
+694	Sierra Leone	Sierra Leona	🇸🇱	9121049	1195000000	República presidencialista	0.21	72180
+702	Singapore	Singapur	🇸🇬	6028459	873989000000	República parlamentaria	59.61	730
+534	Sint Maarten (Dutch part)	Sint Maarten	🇸🇽	32996	1372000000	null	0	34
+703	Slovakia	Eslovaquia	🇸🇰	5563649	121238000000	República parlamentaria	29.52	48080
+705	Slovenia	Eslovenia	🇸🇮	2097893	57489000000	República parlamentaria	16.71	20151
+90	Solomon Islands	Islas Salomón	🇸🇧	726799	546025000	Monarquía constitucional	0.11	27990
+706	Somalia	Somalia	🇸🇴	13017273	819000000	República parlamentaria	0.42	627340
+-3	Somaliland	Somalilandia	🇸🇴	0	0	null		0
+710	South Africa	Sudáfrica	🇿🇦	60442647	124731000000	República parlamentaria mixta	249.07	1214470
+239	South Georgia and the South Sandwich Islands	Islas Georgias del Sur y Sandwich del Sur	🇬🇸	0	0	null		3903
+728	South Sudan	Sudán del Sur	🇸🇸	12703714	5811000000	República presidencialista	0.59	0
+724	Spain	España	🇪🇸	47280433	615830000000	Monarquía parlamentaria	281.65	498980
+144	Sri Lanka	Sri Lanka	🇱🇰	21982608	17327000000	República semipresidencialista	17.38	61860
+729	Sudan	Sudán	🇸🇩	50467278	5908000000	Junta militar	16.75	1731671
+740	Suriname	Surinam	🇸🇷	646758	2534000000	República parlamentaria mixta	2.14	156000
+744	Svalbard and Jan Mayen	Svalbard y Jan Mayen	🇸🇯	2926	0	null	0	62045
 748	Swaziland	Suazilandia	🇸🇿	0	0	Monarquía absoluta	0	0
-752	Sweden	Suecia	🇸🇪	10589835	324073000000	Monarquía parlamentaria	171.99	528660
-756	Switzerland	Suiza	🇨🇭	8860574	661628000000	República parlamentaria mixta	75.76	41290.7
-760	Syrian Arab Republic	Siria	🇸🇾	23865423	2224000000	Gobierno provisional	20.08	185180
-762	Tajikistan	Tayikistán	🇹🇯	10394063	2105000000	República presidencialista	21.68	141379
-764	Thailand	Tailandia	🇹🇭	69920998	336871000000	Monarquía constitucional	199.52	513115.021
-768	Togo	Togo	🇹🇬	8917994	1722000000	República parlamentaria	0.92	56790
-772	Tokelau	Tokelau	🇹🇰	1647	103000	null	0	0
-776	Tonga	Tonga	🇹🇴	104889	59926000	Monarquía parlamentaria	0.07	750
-780	Trinidad and Tobago	Trinidad y Tobago	🇹🇹	1408966	17584000000	República parlamentaria	9.5	5130
-784	United Arab Emirates	Emiratos Árabes Unidos	🇦🇪	10032213	335238000000	Monarquía constitucional	177.26	98647.9
-788	Tunisia	Túnez	🇹🇳	12048847	17258000000	República semipresidencialista	20.83	163610
-792	Turkey	Turquía	🇹🇷	84119531	352514000000	República presidencialista	341.23	785350
-795	Turkmenistan	Turkmenistán	🇹🇲	5744151	10282000000	República presidencialista	33.79	491209
-796	Turks and Caicos Islands	Islas Turcas y Caicos	🇹🇨	60439	826824000	null	0.26	950
-798	Tuvalu	Tuvalu	🇹🇻	11733	2232000	Monarquía constitucional	0	30
-800	Uganda	Uganda	🇺🇬	49283041	6115000000	República presidencialista	5.75	241550
-804	Ukraine	Ucrania	🇺🇦	35661826	51093000000	República semipresidencialista	111.51	603550
-807	Macedonia, the former Yugoslav Republic of	Macedonia del Norte	🇲🇰	2135622	10748000000	República parlamentaria	5.8	25710
-818	Egypt	Egipto	🇪🇬	111247248	76295000000	República semipresidencialista	237.39	1001450
-826	United Kingdom	Reino Unido	🇬🇧	68459055	1075000000000	Monarquía parlamentaria	284.16	243610
-831	Guernsey	Guernsey	🇬🇬	67787	0	null	0	0
-832	Jersey	Jersey	🇯🇪	103387	0	null	0	0
-833	Isle of Man	Isla de Man	🇮🇲	92269	0	null	0	570
-834	Tanzania, United Republic of	Tanzania	🇹🇿	67462121	11986000000	República presidencialista	10.98	947300
-840	United States	Estados Unidos	🇺🇸	341963408	3052000000000	República presidencialista	4391.02	9831510
-850	Virgin Islands, U.S.	Islas Vírgenes de los Estados Unidos	🇻🇮	104377	4075000000	null	0.67	350
-854	Burkina Faso	Burkina Faso	🇧🇫	23042199	5814000000	Junta militar	1.73	274200
-858	Uruguay	Uruguay	🇺🇾	3425330	21286000000	República presidencialista	17.27	176220
-860	Uzbekistan	Uzbekistán	🇺🇿	36520593	24536000000	República semipresidencialista	76.25	448920
-862	Venezuela, Bolivarian Republic of	Venezuela	🇻🇪	31250306	83401000000	República presidencialista	82.94	912050
-876	Wallis and Futuna	Wallis y Futuna	🇼🇫	15964	0	null	0	0
-882	Samoa	Samoa	🇼🇸	208853	347190000	Monarquía parlamentaria	0.15	2840
-887	Yemen	Yemen	🇾🇪	32140443	384500000	Gobierno provisional	3.07	527970
-894	Zambia	Zambia	🇿🇲	20799116	12444000000	República presidencialista	19.46	752610
-
+752	Sweden	Suecia	🇸🇪	10589835	324073000000	Monarquía parlamentaria	171.99	407284
+756	Switzerland	Suiza	🇨🇭	8860574	661628000000	República parlamentaria mixta	75.76	39510
+760	Syrian Arab Republic	Siria	🇸🇾	23865423	2224000000	Gobierno provisional	20.08	183630
+158	Taiwan, Province of China	Taiwán	🇹🇼	23595274	388490000000	null	288.56	32260
+762	Tajikistan	Tayikistán	🇹🇯	10394063	2105000000	República presidencialista	21.68	141510
+834	Tanzania, United Republic of	Tanzania	🇹🇿	67462121	11986000000	República presidencialista	10.98	885800
+764	Thailand	Tailandia	🇹🇭	69920998	336871000000	Monarquía constitucional	199.52	510890
+626	Timor-Leste	Timor Oriental	🇹🇱	1506909	701808000	República semipresidencialista	0.51	0
+768	Togo	Togo	🇹🇬	8917994	1722000000	República parlamentaria	0.92	54390
+772	Tokelau	Tokelau	🇹🇰	1647	103000	null	0	12
+776	Tonga	Tonga	🇹🇴	104889	59926000	Monarquía parlamentaria	0.07	720
+780	Trinidad and Tobago	Trinidad y Tobago	🇹🇹	1408966	17584000000	República parlamentaria	9.5	5127
+788	Tunisia	Túnez	🇹🇳	12048847	17258000000	República semipresidencialista	20.83	155360
+792	Turkey	Turquía	🇹🇷	84119531	352514000000	República presidencialista	341.23	769632
+795	Turkmenistan	Turkmenistán	🇹🇲	5744151	10282000000	República presidencialista	33.79	469930
+796	Turks and Caicos Islands	Islas Turcas y Caicos	🇹🇨	60439	826824000	null	0.26	948
+798	Tuvalu	Tuvalu	🇹🇻	11733	2232000	Monarquía constitucional	0	25
+800	Uganda	Uganda	🇺🇬	49283041	6115000000	República presidencialista	5.75	200520
+804	Ukraine	Ucrania	🇺🇦	35661826	51093000000	República semipresidencialista	111.51	551180
+784	United Arab Emirates	Emiratos Árabes Unidos	🇦🇪	10032213	335238000000	Monarquía constitucional	177.26	82880
+826	United Kingdom	Reino Unido	🇬🇧	68459055	1075000000000	Monarquía parlamentaria	284.16	242741
+840	United States	Estados Unidos	🇺🇸	341963408	3052000000000	República presidencialista	4391.02	9147593
+581	United States Minor Outlying Islands	Las islas Ultramarinas Menores de los Estados Unidos	🇺🇲	0	0	null	0	34
+858	Uruguay	Uruguay	🇺🇾	3425330	21286000000	República presidencialista	17.27	175015
+860	Uzbekistan	Uzbekistán	🇺🇿	36520593	24536000000	República semipresidencialista	76.25	425400
+548	Vanuatu	Vanuatu	🇻🇺	318007	152087000	República parlamentaria	0.08	12189
+862	Venezuela, Bolivarian Republic of	Venezuela	🇻🇪	31250306	83401000000	República presidencialista	82.94	882050
+704	Viet Nam	Vietnam	🇻🇳	105758975	374265000000	Unipartidista	303.58	313429
+92	Virgin Islands, British	Islas Vírgenes Británicas	🇻🇬	104377	23000000	null	0.17	151
+850	Virgin Islands, U.S.	Islas Vírgenes de los Estados Unidos	🇻🇮	104377	4075000000	null	0.67	347
+876	Wallis and Futuna	Wallis y Futuna	🇼🇫	15964	0	null	0	142
+732	Western Sahara	Sahara Occidental	🇪🇭	0	0	null	0.09	266000
+887	Yemen	Yemen	🇾🇪	32140443	384500000	Gobierno provisional	3.07	455503
+894	Zambia	Zambia	🇿🇲	20799116	12444000000	República presidencialista	19.46	743390
+716	Zimbabwe	Zimbabue	🇿🇼	17150352	7650000000	República presidencialista	8.31	386850
