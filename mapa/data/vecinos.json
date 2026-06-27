@@ -1,0 +1,198 @@
+{
+  "Aguascalientes": [
+    "Jalisco",
+    "Zacatecas"
+  ],
+  "Baja California": [
+    "Baja California Sur",
+    "Sonora"
+  ],
+  "Baja California Sur": [
+    "Baja California"
+  ],
+  "Campeche": [
+    "Quintana Roo",
+    "Tabasco",
+    "Yucatán"
+  ],
+  "Chiapas": [
+    "Oaxaca",
+    "Tabasco",
+    "Veracruz"
+  ],
+  "Chihuahua": [
+    "Coahuila",
+    "Durango",
+    "Sinaloa",
+    "Sonora"
+  ],
+  "Coahuila": [
+    "Chihuahua",
+    "Durango",
+    "Nuevo León",
+    "Zacatecas"
+  ],
+  "Colima": [
+    "Jalisco",
+    "Michoacán"
+  ],
+  "Distrito Federal": [
+    "Morelos",
+    "México"
+  ],
+  "Durango": [
+    "Chihuahua",
+    "Coahuila",
+    "Nayarit",
+    "Sinaloa",
+    "Zacatecas"
+  ],
+  "Guanajuato": [
+    "Jalisco",
+    "Michoacán",
+    "Querétaro",
+    "San Luis Potosí"
+  ],
+  "Guerrero": [
+    "Michoacán",
+    "Morelos",
+    "México",
+    "Oaxaca",
+    "Puebla"
+  ],
+  "Hidalgo": [
+    "México",
+    "Puebla",
+    "Querétaro",
+    "San Luis Potosí",
+    "Tlaxcala",
+    "Veracruz"
+  ],
+  "Jalisco": [
+    "Aguascalientes",
+    "Colima",
+    "Guanajuato",
+    "Michoacán",
+    "Nayarit",
+    "Zacatecas"
+  ],
+  "Michoacán": [
+    "Colima",
+    "Guanajuato",
+    "Guerrero",
+    "Jalisco",
+    "México",
+    "Querétaro"
+  ],
+  "Morelos": [
+    "Distrito Federal",
+    "Guerrero",
+    "México",
+    "Puebla"
+  ],
+  "México": [
+    "Distrito Federal",
+    "Guerrero",
+    "Hidalgo",
+    "Michoacán",
+    "Morelos",
+    "Puebla",
+    "Querétaro",
+    "Tlaxcala"
+  ],
+  "Nayarit": [
+    "Durango",
+    "Jalisco",
+    "Sinaloa",
+    "Zacatecas"
+  ],
+  "Nuevo León": [
+    "Coahuila",
+    "San Luis Potosí",
+    "Tamaulipas",
+    "Zacatecas"
+  ],
+  "Oaxaca": [
+    "Chiapas",
+    "Guerrero",
+    "Puebla",
+    "Veracruz"
+  ],
+  "Puebla": [
+    "Guerrero",
+    "Hidalgo",
+    "Morelos",
+    "México",
+    "Oaxaca",
+    "Tlaxcala",
+    "Veracruz"
+  ],
+  "Querétaro": [
+    "Guanajuato",
+    "Hidalgo",
+    "Michoacán",
+    "México",
+    "San Luis Potosí"
+  ],
+  "Quintana Roo": [
+    "Campeche",
+    "Yucatán"
+  ],
+  "San Luis Potosí": [
+    "Guanajuato",
+    "Hidalgo",
+    "Nuevo León",
+    "Querétaro",
+    "Tamaulipas",
+    "Veracruz",
+    "Zacatecas"
+  ],
+  "Sinaloa": [
+    "Chihuahua",
+    "Durango",
+    "Nayarit",
+    "Sonora"
+  ],
+  "Sonora": [
+    "Baja California",
+    "Chihuahua",
+    "Sinaloa"
+  ],
+  "Tabasco": [
+    "Campeche",
+    "Chiapas",
+    "Veracruz"
+  ],
+  "Tamaulipas": [
+    "Nuevo León",
+    "San Luis Potosí",
+    "Veracruz"
+  ],
+  "Tlaxcala": [
+    "Hidalgo",
+    "México",
+    "Puebla"
+  ],
+  "Veracruz": [
+    "Chiapas",
+    "Hidalgo",
+    "Oaxaca",
+    "Puebla",
+    "San Luis Potosí",
+    "Tabasco",
+    "Tamaulipas"
+  ],
+  "Yucatán": [
+    "Campeche",
+    "Quintana Roo"
+  ],
+  "Zacatecas": [
+    "Aguascalientes",
+    "Coahuila",
+    "Durango",
+    "Jalisco",
+    "Nayarit",
+    "Nuevo León",
+    "San Luis Potosí"
+  ]
+}
